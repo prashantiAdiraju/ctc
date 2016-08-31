@@ -1,0 +1,68 @@
+/*company*/
+@media (max-width:1000px){
+.company_box2 .list li {min-height:250px;}
+}
+@media (max-width:767px){
+.company_box1 {margin-bottom:50px;}
+.company_box2 .list li { width:100%; float:none;}
+.company_box4 .left_box {width:80%; float:none; margin-bottom:30px;}
+.company_box4 .right_box {width:80%; float:none;}
+}
+@media (max-width:479px){
+.company_banner .des {font-size:18px; line-height:22px;}
+.company_box1 .list li {width:98%; margin-bottom:20px;}
+.company_box5 .list li {width:98%; float:none;}
+.company_box6 .right_box,.company_box6 .left_box {width:100%; float:none;}
+}
+/*parter*/
+@media (max-width:767px){
+.partner_nav .list li{font-size:14px;}
+.overview_banner .img{display:none;}
+.overview_banner .word{width:auto; float:none; padding:0 10px;}
+.partner_product .left,.partner_product .right{width:auto; float:none;}
+.partner_product .img img{width:100%;}
+.partner_title .word{background-image:none; line-height:26px; padding:6px; font-size:18px;}
+.partner_title .arrow_right{display:none;}
+.contact_mail .list li{width:50%;}
+.reseller_banner .wrap_1200{min-height:inherit;}
+}
+@media (max-width:479px){
+.partner_nav .link{padding:10px 0 0 0; height:auto; background:none !important;}
+.partner_nav .box{top:33px;}
+.overview_box .img img{display:none;}
+.overview_box .word{width:auto; float:none; padding:0 10px;}
+.partner_product .list li{width:auto; float:none;}
+.contact_mail .list li{width:99%;}
+}
+
+
+@media (max-width:1000px){
+.partner_nav .list li{padding:0 10px;}
+.partner_product .list li{padding-left:16px; background-position:8px 8px;}
+}
+@media (max-width:767px){
+.partner_nav .list li{font-size:14px;}
+.overview_banner .img{display:none;}
+.overview_banner .word{width:auto; float:none; padding:0 10px;}
+.partner_product .left,.partner_product .right{width:auto; float:none;}
+.partner_product .img img{width:100%;}
+.partner_title .word{background-image:none; line-height:26px; padding:6px; font-size:18px;}
+.partner_title .arrow_right{display:none;}
+.contact_mail .list li{width:50%;}
+.reseller_banner .wrap_1200{min-height:inherit;}
+}
+@media (max-width:479px){
+.partner_nav .link{padding:10px 0 0 0; height:auto; background:none !important;}
+.partner_nav .box{top:33px;}
+.overview_box .img img{display:none;}
+.overview_box .word{width:auto; float:none; padding:0 10px;}
+.partner_product .list li{width:auto; float:none;}
+.contact_mail .list li{width:99%;}
+}
+/*reseller*/
+@media (max-width:767px){
+.reseller_banner .des{font-size:16px; margin-bottom:6px;}
+.reseller_banner .title{line-height:24px; font-size:22px;}
+.reseller_key .list li{width:100%; margin-bottom:10px;}
+.reseller_level li{width:50%; margin-bottom:10px;}
+}

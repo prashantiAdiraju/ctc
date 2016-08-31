@@ -1,0 +1,574 @@
+/**
+旧站导航-正文样式
+**/
+	/*面包屑*/
+.ClearBoth{clear:both;}
+.ParentLayer{width:1200px;max-width:100%;margin:0 auto;text-align:left;position:relative;overflow:hidden;}
+#PageNavigation{height:33px;clear: both; margin-bottom:20px;}
+#PageNavigation p{text-indent:10px;margin:0px;padding:5px 0 0 0;line-height:33px;vertical-align:middle;float:left;width:800px;}
+#PageNavigation a{text-decoration:none;color:#0087ff;}
+#PageNavigation a:hover{text-decoration:underline;}
+#breadNav{height:33px;clear:both;}
+#breadNav p{margin:0px;padding:0;line-height:33px;vertical-align:middle;float:left;width:800px;}
+#breadNav a{text-decoration:none;color:#3366cc;}
+#breadNav a:hover{text-decoration:underline;color:#38a4ff;}
+/* Resource */
+#Label{margin: 0;padding: 0;font-weight: bold;}
+#Label li{width: 233px;height: 24px;list-style-image: none;list-style-type: none;display: inline;float: left;margin-bottom: 1px;}
+#Label li a{line-height: 24px;color: #0087ff;display:block;padding-left: 20px;width: 213px;text-decoration: none;vertical-align: middle;}
+#Label li a:link, #Label li a:active, #Label li a:visited{background: #f9fbff url('http://www.easeus.com/images/li-link.gif') no-repeat 3px;center;}
+#Label li a:hover{background: #ecf1ff url('http://www.easeus.com/images/li-hover.gif') no-repeat 3px center;}
+	/*FAQ侧边栏*/
+#SideBarClient{height:100px;background-image:url('http://www.easeus.com/images/clients.gif');background-repeat:no-repeat;background-position:center 40px;}
+#Awards{background: url('http://www.easeus.com/images/awards.gif') no-repeat center 50px;height: 125px;}
+
+.LeftSideBar{width:260px;font-size:13px;padding:10px 0 0 0;float:left;position:relative;z-index:1;}
+.LeftSideBar a{color:#434a53;}
+.LeftSideBar #DocumentsList ul, #SideBarPartitionMagic ul li{list-style:inside;}
+.LeftSideBar #DocumentsList dl dt, .LeftSideBar #ProductsList dl dt{margin-left:15px;padding:5px 0 5px 10px;background:url(http://www.easeus.com/resource/images/arrow.png) no-repeat -156px 6px;}
+.LeftSideBar #DocumentsList dl dd, .LeftSideBar #ProductsList dl dd{background:url('http://images.easeus.com/images/en/icon_dot.gif') left 9px no-repeat;padding-left: 10px;margin-left: 28px;}
+.LeftSideBar #ProductsList ul, .LeftSideBar #SideBarPartner ul, .LeftSideBar #SideBarWhatToDo ul, .LeftSideBar #DocumentsList ul, .LeftSideBar #DocumentIndex ul, .LeftSideBar .subdiv ul{margin:10px 0 10px 15px;}
+.LeftSideBar #ProductsList ul li, .LeftSideBar #SideBarPartner ul li, .LeftSideBar #SideBarWhatToDo ul li, .LeftSideBar #DocumentsList ul li, .LeftSideBar #DocumentIndex ul li , .LeftSideBar .subdiv ul li{list-style:none;background:url(http://www.easeus.com/images_2016/arrow-gray-right.png) no-repeat 0 12px;padding:5px 0 5px 10px; font-size:16px;}
+.LeftSideBar .subdiv, .LeftSideBar #SideBarPartner, .LeftSideBar #SideBarWhatToDo, .LeftSideBar #Awards, .LeftSideBar #SideBarMailList, .LeftSideBar #SupportMore{border:1px solid #f2f2f2;margin-bottom:20px;overflow:hidden;}
+.LeftSideBar .subdiv h2, .LeftSideBar #SideBarPartner h2, .LeftSideBar #SideBarWhatToDo h2, .LeftSideBar #Awards h2, .LeftSideBar #SideBarMailList h2, .LeftSideBar #SupportMore h2{font-size:18px;font-weight:normal; line-height:45px;background:#f2f2f2;margin:0;border-bottom:3px solid #60b4ff;padding:0 0 0 15px;}
+#SupportMore p{margin:0 0 0 15px;line-height:40px;}
+#SupportMore a{color:#247cc4;}
+.SideBarNesletter{width:205px;margin:0 auto;}
+.SideBarNesletter p{margin:10px 0;}
+.News-email{width:133px;height:27px;padding-left:5px;line-height:25px;-wikbet-border-radius: 5px;border: none;background:url('http://www.easeus.com/images/bg-news-email.png') no-repeat;color:#999;}
+
+.RightContext{width:74%;clear:right;float:left;margin-left:-1px;margin-bottom:20px;position:relative;z-index:1;font-size:13px;}
+.RightContext.span14{width:694px;}
+.RightContext #Context{padding:10px;margin:10px;margin-top:0px;clear:both;overflow:hidden;zoon:1;}
+.RightContext #Context p { font-size:15px; margin-bottom:15px;}
+.RightContext #Context h1, .RightContext #Context h2{font-size: 24px; line-height: 26px;margin-bottom:20px;}
+.KnowledgeBaseContext #Context h1{font-size:22px;line-height:1.2em;}
+.KnowledgeBaseContext #Context h2{font-size:16px;}
+.RightContext h3, .KnowledgeBaseContext h3{font-size:14px;font-weight:normal;line-height:1.2em;}
+.RightContext #Context .Bold{font-weight:bold;}
+.RightContext #Context ul li{background:url('http://images.easeus.com/images/en/icon_dot.gif') left 9px no-repeat;padding-left: 10px;}
+.RightContext #Context .tab li{list-style:none;float:left;display:block;height:30px;line-height:30px;padding:0 10px;cursor:pointer;}
+.RightContext .Content{width:720px;margin:0 0 0 20px;}
+.RightContext .Content table{border-collapse:collapse;border:solid #ddd;border-width:1px 0 0 1px;margin:0 0 20px 0;}
+.RightContext .Content table td{border:solid #ddd;border-width:0 1px 1px 0;padding:5px;}
+.RightContext .Content table th{margin:0px;border-right:1px solid #ddd;border-bottom:1px solid #ddd;padding:8px;background-color: #f7f8f9;text-align:center;}
+.RightContext .Content .Center{text-align:center;}
+.RightContext .Content h3{margin-left:20px;}
+.ImgScreen1{float: left;padding: 5px 15px 10px 5px;width: 310px;text-align: center;}
+.ImgScreen2{float: right;padding: 5px 5px 10px 15px;width: 310px;text-align: center;}
+.RightContext #Context table{border-collapse:collapse;border:solid #ddd;border-width:1px 0 0 1px;margin:0 0 20px 0;}
+.RightContext #Context table td{border:solid #ddd;border-width:0 1px 1px 0;padding:5px;}
+.RightContext #Context table th{margin:0px;border-right:1px solid #ddd;border-bottom:1px solid #ddd;padding:8px;background-color: #f7f8f9;text-align:center;}
+#Context .DrwDowload{width:690px;height:140px;padding:10px;padding-left:0;background: url('http://www.easeus.com/images/bg-drwdowloaddiv.jpg') no-repeat;position:relative;}
+#Context .DrwDowload ul{width:420px;display:block;float:left;padding:0;margin:0;padding-left:10px;}
+#Context .DrwDowload ul li{list-style-image:none;list-style:none;line-height:22px;font-size:11px;}
+#Context ul.list{border-bottom:1px dashed #999;padding-bottom:20px;}
+#Context ul.list li{background:none;padding-left:20px;}
+#Context ul.list li a,#Context .bt_livechat .this_link,#Context ol.list li a{text-decoration:underline;color:#00489d;font-size:14px;}
+#Context ol.list{list-style-type:decimal;}
+#Context ol.list li{list-style-type:decimal;margin:20px 0px 20px 20px;}
+#Context .DrwDowload .DrwDowloadTitle{font-size:17px;margin:10px 0;padding-left:10px;color:#073f50;}
+#Context .DrwDowload .DrwDowloadBt{width:240px;height:60px;background:url(http://www.easeus.com/images/bt-drwdowload.png) no-repeat;position:absolute;top:60px;right:15px;}
+#Context .bt_livechat{border-top:1px dashed #999;margin:30px 0px;padding:20px 0px;}
+#Context .bt_livechat .this_bt{background:#3197d9;color:#fff;display:block;width:154px;height:40px;line-height:40px;text-align:center;font-size:18px; border-radius:3px; margin:20px 0;cursor:pointer;}
+.Epm-Off{width:385px;height:154px;background:url('http://www.easeus.com/images/pic-drw20off.jpg') no-repeat;position:relative;padding:15px 5px 15px 310px;font-family: Segoe UI,Arial,Verdana,Tahoma,sans-serif;margin-top:20px;}
+.Epm-Off h1{margin:0;padding:0;font-size:14px;margin-bottom:10px;color:#063b89;}
+.Epm-Off p{margin:0;padding:0;font-size:16px;margin-bottom:10px;}
+.Epm-Off .P-timelimited{font-size:16px;font-weight:bold;color:#F00;}
+.Epm-Off .P-30Day{position:absolute;font-size:10px;bottom:0;left:440px;}
+.Epm-Off .P-price{font-size:24px;font-weight:bold;margin:30px 0;}
+.Epm-Off-BuyNow{display:block;width:115px ;height:32px;background:url('http://www.easeus.com/images/epm-allbutton.png') no-repeat;margin-right:15px;position:absolute;top:115px;left:450px;}
+.Epm-Off-Download{display:block;width:115px ;height:32px;background:url('http://www.easeus.com/images/epm-allbutton.png') no-repeat 0 -33px;}
+.Epm-Off img{position: absolute;top: 100px;right:15px;}
+
+.RightContext #Context .RightContextUl{margin-left:0;}
+.RightContext #Context .RightContextUl li{list-style-image:url('http://www.easeus.com/styles/images/newsarr.gif');}
+.RightContext #Context #RightContextDrwUl{padding:0;}
+.ParentLayer table{border-collapse:collapse;border:solid #ddd;border-width:1px 0 0 1px;}
+.ParentLayer table td{border:solid #ddd;border-width:0 1px 1px 0;padding:5px;vertical-align:top;}
+.ParentLayer table th{margin:0px;border-right:1px solid #ddd;border-bottom:1px solid #ddd;padding:8px;background-color: #f7f8f9;text-align:center;}
+p.DetailButtons{text-align:center;clear: both;}
+p.DetailButtons img{margin-left:5px;}
+.KnowledgeBaseContext{width:950px;margin:20px auto;overflow:hidden;zoom:1;}
+.KnowledgeBaseDiv1, .KnowledgeBaseDiv2, .KnowledgeBaseDiv3{float:left;width:300px;margin:0 25px 0 0;}
+.KnowledgeBaseDiv3{margin-right:0;}
+li.Powerful, li.Support, li.Safe, li.MoneyBack, li.Fast, li.VistaReady, li.Windows7Ready, li.Linux{padding-left: 50px;}
+li.Powerful{background:transparent url('http://www.easeus.com/styles/images/ruanpan.gif') no-repeat scroll center left;}
+li.Support{background:transparent url('http://www.easeus.com/styles/images/people.gif') no-repeat scroll center left;}
+li.Safe{background:transparent url('http://www.easeus.com/styles/images/lock.jpg') no-repeat scroll center left;}
+li.MoneyBack{background:transparent url('http://www.easeus.com/styles/images/yuanlogo.jpg') no-repeat scroll center left;}
+li.Fast{background:transparent url('http://www.easeus.com/styles/images/phone.jpg') no-repeat scroll center left;}
+li.VistaReady{background:transparent url('http://www.easeus.com/styles/images/vista.gif') no-repeat scroll center left;}
+li.Windows7Ready{background:transparent url('http://www.easeus.com/styles/images/windows7.gif') no-repeat scroll top left;}
+li.Linux{background:transparent url('http://www.easeus.com/styles/images/ext.gif') no-repeat scroll center left;}
+.AlignCenter{text-align:center !important;}
+.AlignLeft{text-align: left;}
+.AlignRight{text-align: right;}
+.Submit-email{background:#b9b9b9;height:27px;line-height:25px;-webkit-border-radius: 5px;border-radius: 5px;-moz-border-radius: 5px;width:54px;text-align:center;border:none;cursor:pointer;}
+#Feedback form{background-color: #F9FFEE;font-size:12px;}
+#Feedback form label{width: 300px;text-align: right;font-weight: bold;color: #333;}
+#Feedback form select{height:30px;}
+#Feedback form table{border: 0;}
+#Feedback form table tr td{border: 0;}
+.KnowledgeBotton{width:230px;height:92px;background:url(http://www.easeus.com/images/bt-knowledgebase.png) no-repeat;margin:40px auto;}
+.KnowledgeBotton a{display:block;width:230px;height:92px;}
+.Newkb{margin:40px 5px;}
+	/*文章正文*/
+.articlesCon{float:left;width:730px;margin:0 10px;overflow:hidden;text-align:left;}
+.iosArticles{float:left;overflow:hidden;}
+.iosArticles h1{font-size:26px;font-weight:bold;line-height:26px;padding:10px 0 0 0;color:#0087ff;}
+.iosArticles h2{background:none;border:none;padding:0;margin:0;font-size:18px;color:#595959;}
+.iosArticles h3{background:none;border:none;padding:0 0 0 10px;margin:10px 0;font-size:18px;font-weight:normal;}
+.iosArticles p{line-height:24px;color:#595959;padding:10px 0;margin:0;text-align:left;}
+.iosArticles ul{margin-left:20px;padding:0;}
+.iosArticles ul li{list-style:outside;list-style-image:none;padding:5px 0;}
+.iosArticles .relatedArt{font-size:18px;margin-top:30px;padding-top:20px;border-top:1px dashed #595959;}
+.relatedList{margin-left:20px;padding:0 0 20px 0;}
+.relatedList li{list-style-image:none;}
+.iosArticles .DownBt{float:left;display:block;width:205px;height:60px;margin-right:50px;}
+.iosArticles .DownBt.Win{background:url('http://www.easeus.com/images/new-img/ms-download-button-for-win.png') no-repeat;} 
+.iosArticles .DownBt.Mac{background:url('http://www.easeus.com/images/new-img/ms-download-button-for-mac.png') no-repeat;}
+.DivLeftFloat{float: left;width: 345px;padding: 0px 10px 0px 0px;position: relative;}
+.DivRightFloat{float: left;width: 345px;padding: 0;position: relative;}
+	/*文章作者信息*/
+.authorInfo{overflow:hidden;border-bottom:1px solid #ddd;border-top:1px solid #ddd;margin:15px 0 20px 10px;padding:2px 0;}
+.authorPhoto{float:left;width:45px;height:45px;}
+.articlePost{float:left;width:600px;height:45px;margin-left:15px;}
+.articlePost p{line-height:24px;padding:0;margin:0;}
+	/*侧边栏*/
+.catSidebar{float:right;width:19%;}
+.relatedCat, .relatedPro, #relatedTips{margin-bottom:20px;overflow:hidden;}
+.relatedPro p, #relatedTips p{margin-left:25px;}
+.relatedCat .pStyle2, .hotTages .pStyle2, .relatedPro h2, #relatedTips h2, .relatedCat h2{font-size:18px;color:#333;padding:7px 12px 10px 0px;margin:0 0 10px 0;border-bottom:2px solid #81c8ff;}
+.relatedPro h2, .relatedCat h2, #relatedTips h2{font-size:18px;}
+#relatedTips h3{background:none;border:none;}
+#relatedTips .pStyle4{text-align:center;margin-left:0;}
+.relatedCat ul, .relatedPro ul, #relatedTips ul{margin:0;padding:5px 0 10px 10px;}
+.relatedCat ul li, .relatedPro ul li, #relatedTips ul li{font-size:14px;margin-bottom:4px;background:url(http://www.easeus.com/images_2016/arrow-gray-right.png) 0px 7px no-repeat;padding-left:12px;}
+.relatedCat ul li a, .relatedPro ul li a, #relatedTips ul li a{color:#666;}
+.hotTages{border-radius:3px;}
+.hotTages .tages{padding:10px 12px;}
+.tages li{display:inline;}
+.tages .tstyle1{color:#3a3a3a;font-size:1.5em;}
+.tages .tstyle2{color:#838383;font-size:1.2em;}
+.tages .tstyle3{color:#3a3a3a;font-size:1.2em;}
+.tages .tstyle4{color:#000000;font-size:2em;}
+.tages .tstyle5{color:#3a3a3a;font-size:2em;}
+.relatedCat .articleSwap{width:222px;overflow:hidden;position:relative;}
+.relatedCat .articleSwap ul{float:left;width:1110px;position:relative;overflow:hidden;margin:0;}
+.relatedCat .articleSwap ul li{float:left;position:relative;left:-10px;padding-left:10px;width:222px;overflow:hidden;display:block;margin:0;padding:0;background:none;}
+.relatedCat .articleSwap p{background:url(http://www.easeus.com/resource/images/arrow.png) no-repeat -146px 6px;padding:5px 0 5px 20px;margin:0;}
+.relatedCat .swapContr{float:right;width:100px;height:6px;margin:0 10px 0 0;padding:0 0 15px 0;clear:both;}
+.relatedCat .swapContr li{width:20px;height:6px;background:#dcdcdc;cursor:pointer;display:block;float:left;margin:0 5px 0 0;list-style:none;padding:0;overflow:hidden;}
+.relatedCat .swapContr li.current{background-color:#2e98ca;}
+.relatedCat ul.scroll_sidebar { padding-left:0;}
+.relatedCat ul.scroll_sidebar li { padding:0; background:none;}
+.relatedCat.img_rdf img { width:100%; height:auto;}
+	/*@article_content正文样式2*/
+.article_content strong{font-weight:bold;}
+.article_content em{font-style:italic;}
+.article_content ol li{list-style-type:decimal;margin-left:19px;}
+.article_content h1{margin-bottom:15px;font-size:32px;line-height:35px;color:#333;}
+.article_content h2{font-family:Helvetica, Arial, sans-serif;font-size:21px;line-height:21px;font-weight:normal;margin:10px 0 13px;line-height:1.2em;color:#333;background:none;border:none;}
+.article_content h2 .step{background:#444;color:#fff;font-size:24px;display:block;width:30px;line-height:28px;height:30px;text-align:center;float:left;margin-right:10px;border-radius:3px;}
+.article_content h3{font-family:Helvetica, Arial, sans-serif;font-size:18px;margin:15px 0 13px;font-weight:normal;color:#333;background:none;border:none;}
+.article_content h3 .step{font-size:14px;display:block;float:left;width:55px;text-align:center;height:25px;line-height:25px;color:#fff;margin:-3px 5px 3px 0;}
+.article_content h4{font-size:17px;padding:7px 0;}
+.article_content p{margin:15px 0;overflow:hidden;line-height:20px;text-align: justify;}
+.article_content hr{border:none;border-bottom:1px dashed #e8e8e8;height:0;overflow:hidden;margin:15px 0;}
+.article_content .winDown,.article_content .macDown{display:block;margin:5px 8px 0 0;width:195px;height:69px;float:left;}
+.article_content .macDown{background-position:0 -253px;}
+.article_content span.time{color:#acacac;display:block;margin-bottom:20px;}
+.article_content .related-articles{display:block;background:#f8f8f8;padding:10px;border-radius:5px;margin-bottom:20px;list-style:inside;}
+.article_content a{color:#0087ff;}
+.article_content a:hover{text-decoration:underline;}
+.bodydiv{width:1200px;max-width:100%;margin:0 auto;text-align:left;position:relative;overflow:hidden;}
+.topic_main_col{float:left;display:inline;width:77%;}
+.article_content .related_article, .iosArticles .related_article, .articleCon .related_article{width:350px;float:left;margin:0 0 0 10px;padding:0;overflow:hidden; }
+.article_content .related_article li, .iosArticles .related_article li, .articleCon .related_article li{list-style:outside;list-style-image:none;padding:5px 0;margin-left:15px;background:none;}
+	/*文章详情*/
+.articleMain{width:1000px;margin:0 auto;text-align:left;overflow:hidden;}
+.articleText{float:left;width:77%;padding-bottom:20px;}
+.articleText.all{width:100%;}
+.articleText h1, .articleText h2{font-size:30px;color:#0087ff;font-weight:normal;line-height:1.2em;background:none;border:none;}
+.articleText h3{background:none;border:none;padding:0px;margin:10px 0;font-size:22px;font-weight:normal;}
+.articleText .LeftFloat, .articleText .RightFloat{font-size:12px;width:350px;}
+.relatedPro .pStyle3{font-size:16px;color:#fff;padding:7px 12px 0;height:31px;background:#fff;filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr='#2e98ca',endcolorstr='#176bab',gradientType=0);background:-moz-linear-gradient(top, #2e98ca, #176bab 100%);background:-webkit-gradient(linear, 0 0, 0 100%, from(#2e98ca), to(#176bab));border-top-left-radius:3px;border-top-right-radius:3px;margin:0;}
+.articleText p{margin:0px;padding:5px 0;line-height:24px;color:#494949; font-size:15px;}
+.authorInfo p{padding:0;}
+.articleText ul{padding:0;margin:0 0 0 20px;}
+.articleText ul li{list-style:outside;list-style-image:none;padding:5px 0; font-size:15px;}
+.articleText .windownbt, .articleText .macdownbt{width:205px;height:60px;display:block;float:left;}
+.articleText .windownbt{background:url(http://www.easeus.com/images/new-img/ms-download-button-for-win.png) no-repeat;margin-left:30px;}
+.articleText .macdownbt{background:url(http://www.easeus.com/images/new-img/ms-download-button-for-mac.png) no-repeat;}
+.articleText .clear{clear:both;padding:5px 0 15px 0;}
+.articleText .Resource1 li{line-height:20px;border-bottom:dotted 1px #dcdcdc;padding:10px 0; background:none; list-style:none;}
+.articleText table.Resource li {font-size:14px;}
+.articleText table.Resource th {font-size:18px;}
+/*文章列表页*/
+.reContent{width:1200px;margin:0 auto;padding-top:10px;text-align:left;overflow:hidden;}
+.catDet{border:1px solid #ddd;border-radius:3px;margin-bottom:30px;}
+.reContent .pTitle, .reContent .pTitle1{height:28px;font-size:16px;font-weight:bold;color:#0087ff;padding:7px 12px 0;margin:0;border-bottom:1px solid #ddd;}
+.catInfo{height:150px;padding:0;margin:0;overflow:hidden;}
+.catImg{float:left;width:110px;height:110px;overflow:hidden;padding:20px 40px;}
+.catInfo .des {float:left;}
+.catInfo h1{font-size:18px;color:#0087ff;padding:20px 0 0 0;}
+.catInfo p{border:none;padding:0;margin:0;width:800px;font-size:13px;font-weight:normal;color:#555;}
+.articleInfo{float:left;width:750px;padding-bottom:30px;}
+.reContent .pTitle1{border:1px solid #F2F2F2;border-radius:3px;background:#F2F2F2;height:30px;line-height:30px;padding:0 0 0 12px;margin:0;}
+
+.articleInfo .articleInfoNav{height:36px;border-bottom:1px solid #d9d9d9;margin-bottom:20px;overflow:hidden;}
+.articleInfo ul.articleInfoTab{padding-left:0;margin-left:10px;}
+.articleInfo ul.articleInfoTab li{color:#FFF;float:left;text-align:center;height:36px;padding:0 8px;line-height:35px;margin-right:7px;font-size:16px;background:#2da5da;border:none;cursor:pointer;}
+.articleInfo ul.articleInfoTab li.hover{background:#fff;color: rgb(9, 110, 188);border:1px solid #d9d9d9;border-bottom:none;}
+.articleCon1, .articleCon2, .articleCon3, .articleCon4, .articleCon5{display:none;border:1px solid #f2f2f2;border-top:none;padding:0 15px;}
+.Active{display:block}
+.articleInfo .subTitle{margin:0 0 10px;height:30px;line-height:30px;border-bottom:1px dashed #999;font-size:16px;}
+.articleInfo ul.ProList li{width:210px;float:left;border-bottom:0;padding-left:0;margin:0 44px 20px 0;height:190px;position:relative;}
+.articleInfo ul.ProList li h4{background:none;font-weight:bold;padding:0;margin-bottom:10px;height:40px;font-size:14px;}
+.articleInfo ul.ProList li p{padding:0;margin:0 0 10px;}
+.articleInfo ul.ProList li .BuyBar{position:absolute;bottom:0;width:100%;}
+.articleInfo ul.ProList li p.PriP{text-align:center;font-size:14px;}
+.articleInfo ul.ProList li a.BtBuy{color:#FFF;}
+	/*文章详情2*/
+.topic_article_info{border-top:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;padding:2px 0;overflow:hidden;margin:0;}
+.topic_article_info .img{float:left;display:inline;margin-right:10px;}
+.topic_article_info .info{float:left;display:inline;padding:0;margin:0;}
+.topic_article_info .info a{color:#198fef;}
+.topic_article_info .info p{padding:0;margin:0;}
+.topic_article_info .comment{float:right;display:inline;padding:12px 10px 0;}
+.topic_article_content{padding:20px 20px 10px 5px;clear:both;}
+.topic_article_download{padding:20px 0;border-bottom:1px solid #e0e0e0;}
+.topic_article_relate{background:#f5f5f5;margin-top:20px;padding:5px 15px 20px;}
+.topic_article_relate h4{color:#2383cd;font-weight:bold;padding:10px 0;}
+.topic_article_relate li{background:url(http://www.easeus.com/resource/images/arrow.png) no-repeat -151px 1px;padding:0 0 0 14px;}
+.topic_article_comment{border:1px solid #ddd;padding:5px;margin-top:20px;}
+.OverflowHidden{overflow:hidden;padding:15px 0;clear:both;}
+.DownBt{float:left;display:block;width:205px;height:60px;margin-right:50px;}
+.DownBt.Win{background:url('http://www.easeus.com/images/new-img/ms-download-button-for-win.png') no-repeat;} 
+.DownBt.Mac{background:url('http://www.easeus.com/images/new-img/ms-download-button-for-mac.png') no-repeat;}
+/* company-block */
+.CompanyFeature{padding:10px 5px;margin-top:20px;width:100%;height: 240px;background:url('http://www.easeus.com/styles/images/featurebg-5.gif') no-repeat;}
+.CompanyFeature h3{font-size:120%;padding:0 auto;background:none;}
+.Block1, .Block2, .Block3{width:210px;float:left;padding:10px;}
+.CompanyLocation{overflow:hidden;zoom:1;border-bottom:1px #f2f2f2 solid;padding:20px 0;margin-bottom:20px;}
+.CompanyLocation p{margin:0;}
+/* Press Room */
+#Block_1, #Block_2, #Block_3{width:215px;margin:0;float:left;padding:15px 20px 15px 0;}
+#Block_3{width:230px;padding-right:0;}
+#Block_1 p, #Block_2 p, #Block_3 p{margin:0;}
+/*RESOURCE总页面*/
+.resouceCon{width:1200px;margin:0 auto;text-align:left;overflow:hidden;}
+.resouceCon .pStyle4{height:22px;font-size:18px;color:#0087ff;padding:0;margin:10px 0 20px 0;}
+.resourceUl{padding:0;margin:0;}
+.catListItem{float:left;display:inline;width:340px;border:1px solid #dddddd;border-radius:3px 3px 3px 3px;margin:0 35px 33px 0;overflow:hidden;padding:12px 14px 20px;list-style:none;}
+.catListItem.list3{margin:0 0 33px 0;}
+.catListItem h2{font-size:16px;font-weight:bold;height:35px;background:none;padding:5px 0;margin:0;}
+.catListItem h2 a{color:#666;}
+.catListItem p{padding:0;margin:0;}
+.catListItem img{padding:0;margin:0;}
+.latestArticle{height:145px;overflow:hidden;padding:10px 0 0 0;margin:0;}
+.latestArticle li{background:url('http://www.easeus.com/images/new-img/icon_dot.gif') no-repeat 4px 11px;padding:2px 0 2px 14px;list-style:none;}
+.latestArticle a{color:#1b95e8;}
+.catListItem .more{text-align:right;}
+.catListItem .more a{color:#666;}
+/*dc index*/
+.ContentDc{padding:10px;overflow:hidden;}
+.ContentDc h1{font-size:18px;font-weight:bold;text-indent:0;}
+.ContentDc table{margin:10px 0;}
+.ContentDc table .header6{font-weight:bold;text-align:center;background-color:#c8e8fb;}
+.bannerdc{background:url(http://www.easeus.com/disk-copy/images/banner-tb-clone-bg.jpg) 0 0 no-repeat;height:260px;width:1002px;}
+.dccontent{width:602px;height:242px;padding:18px 0 0 400px;}
+.dccontent h1{color:#155e91;font-size:30px;}
+.dccontent p{font-size:20px;color:#78797b;margin-top:20px;}
+/*****************************************VS Box**********************************************/
+.DcVSTb{overflow:hidden;background:url('http://www.easeus.com/images/dc-vs-bg.png') repeat-x bottom;height:266px;width:1002px;margin:15px 0 0;}
+.DcVSTb h2{width:470px;height:43px;line-height:43px;padding:0 15px;font-size:17px;float:left;margin-bottom:25px;}
+.DcVSTb h2.Title1{background:url('http://www.easeus.com/images/vs-title1.png') no-repeat;}
+.DcVSTb h2.Title2{background:url('http://www.easeus.com/images/vs-title2.png') no-repeat;text-align:right;}
+.TopLeftDc{float:left;width:400px;padding:0px 15px;font-size:12px;position:relative;}
+.TopLeftDc .img{float:left;margin-right:25px;}
+.TopLeftDc .ICO-good{position:absolute;top:-20px;left:95px;}
+
+/*tab 样式*/
+.cate_tab{border-bottom:2px solid #b4bfc3;height:40px;padding-left:12px;margin-bottom:30px;}
+.cate_tab li{float:left;font-size:15px;text-align:center;background:#ededed;height:40px;line-height:40px;cursor:pointer;padding:0 10px !important;border-bottom:none!important;background-image:none!important;}
+.cate_tab li:hover{background:#fff!important;border:2px solid #b4bfc3;border-bottom:0px;}
+.cate_tab li a{color:#333;width:100%;height:100%;}
+.cate_tab li.current{background:#fff!important;border:2px solid #b4bfc3;border-bottom:0px;}
+.cate_tab li.current a{color:#3597d8;display:block;}
+/*android-backup/mobibackup.htm*/
+.androidBg{background:url('http://www.easeus.com/images/banner-android.jpg') no-repeat center 0;height:377px;}
+.androidCon{width:550px;height:337px;margin:0 auto;text-align:left;padding:40px 0 0 450px;position:relative;}
+.androidCon h1{border:none;font-size:36px;padding:0;margin:0;}
+.androidCon p{font-size:18px;margin-bottom:15px;margin-top: 10px;line-height:35px;}
+.androidCon .BannerLink{height:377px;width:1002px;top:0;left:0;z-index:99;}
+.androidMain{padding-top:30px;overflow:hidden;width:1000px;margin:0 auto;text-align:left;}
+.androidMain h2{background:none;border:0;font-size:28px;padding:25px 0;}
+.androidMain .cutLine{border-bottom:1px dashed #ddd;height:1px;padding-top:30px;margin-bottom:30px;clear:both;}
+.androidMain .Width450{width:450px;}
+.androidMain ul li{background: url('http://www.easeus.com/images/yes-green.gif') no-repeat 0 4px;padding-left:25px;font-size:16px;margin-bottom:10px;}
+.androidMain .LF{float:left;}
+.androidMain .RF{float:right;}
+.androidMain .MarginTop20{margin-top:20px;}
+/***************pr*******/
+.Prarticle{overflow:hidden;text-align:left;}
+.Prarticle h2{font-size:18px;padding:20px 10px 20px 0;}
+.Prarticle1{float:left;margin-right:20px;width:300px;}
+.Prarticle1 ul li a, .Prarticle1 ul li{line-height:30px;}
+#Content .arti li{background:url('http://www.easeus.com/images/new-img/icon_15.png') no-repeat 0 10px;padding:0;margin:0;padding-left:20px;}
+.freedown{width:130px;height:32px;background:url('http://www.easeus.com/images/new-img/button1.png') -540px 0 no-repeat;display:inline-block;text-indent:-999px;overflow:hidden;}
+.prbanner{background:url('http://www.easeus.com/images/new-img/pr-banner.jpg') no-repeat 0 0;height:260px;padding-left:380px;position:relative;}
+.prbanner h1{color:#08537a;font-size:28px;font-weight:bold;padding-top:15px;line-height:30px;}
+.prbanner .pgreen{font-size:20px;color:#98c852;font-weight:bold;line-height:30px;padding-top:8px;}
+.prbanner .pre{font-size:17px;color:#535c4b;line-height:20px;padding:0 0 10px 0;}
+.prbanner .readm{position:absolute;left:555px;top:180px;}
+
+/******************/
+.pro_detailother_main{padding:10px 0 30px !important;}
+.pro_detail_main{padding:25px 0 30px !important;overflow:hidden;}
+.pro_detailother_main{padding:150px 0 30px !important;}
+.pro_detail{width:730px;padding-bottom:20px;float:left;}
+.article_content.pro_detail h2{color:#1e9ef0;font-size:20px;line-height:1.5em;padding-bottom:15px;margin-top:0;}
+.pro_detail h2.title{padding-bottom:20px;font-size:26px;color:#666;}
+.pro_detail h2.title1{padding-bottom:10px;font-size:26px;color:#666;border-bottom:1px solid #CCC;width:730px;}
+.hr{border-top:1px solid #e4e5e7;border-bottom:1px solid #efeff0;height:0;margin:30px 0;clear:both;}
+.email{color:#1e9ef0;}
+/*@article_content正文样式*/
+.article_content{overflow:hidden;}
+.article_content strong{font-weight:bold;}
+.article_content em{font-style:italic;}
+.article_content ol li{list-style-type:decimal;margin-left:19px;}
+.article_content h1{margin-bottom:15px;font-family:Helvetica, Arial, sans-serif;font-size:32px;line-height:35px;color:#333;}
+.article_content h2{font-family:Helvetica, Arial, sans-serif;font-size:21px;line-height:25px;font-weight:normal;margin:15px 0 13px;color:#333;}
+.article-title{overflow:hidden;}
+.article-title h2{margin-bottom:0 !important;}
+.article-title h2 b{line-height:25px;}
+.article_content .article-title p{margin-top:0;font-size:15px;float:right;font-weight:bold;}
+.article_content .article-title .drwfree{margin-top:0;font-size:17px;float:right;font-weight:normal;}
+.article_content h2 .step{background:#444;color:#fff;font-size:24px;display:block;width:30px;line-height:28px;height:30px;text-align:center;float:left;margin-right:10px;border-radius:3px;}
+.article_content h3{font-family:Helvetica, Arial, sans-serif;font-size:18px;margin:15px 0 13px;font-weight:normal;color:#333;}
+.article_content h3 .step{font-size:14px;display:block;float:left;width:55px;text-align:center;height:25px;line-height:25px;color:#fff;margin:-3px 5px 3px 0;}
+.article_content h4{font-size:17px;padding:7px 0; clear:both;}
+.article_content p{margin:15px 0;overflow:hidden;line-height:20px;}
+.article_content ul{list-style:outside disc;padding-left:30px;margin-bottom:15px;}
+.article_content hr{border:none;border-bottom:1px dashed #e8e8e8;height:0;overflow:hidden;margin:30px 0;}
+.article_content .winDown,.article_content .macDown{display:block;margin:5px 8px 0 0;width:195px;height:69px;float:left;}
+.article_content .macDown{background-position:0 -253px;}
+.article_content span.time{color:#acacac;display:block;margin-bottom:20px;}
+.article_content .related-articles{display:block;background:#f8f8f8;padding:10px;border-radius:5px;margin-bottom:20px;list-style:inside;}
+.article_content a{color:#0087ff;cursor:pointer;}
+.article_content a:hover{text-decoration: underline;}
+.article_content .break{height:20px;padding:5px 0;}
+
+/*右边栏sidebar*/
+.sidebar{float:right;display:inline;width:240px;}
+.sidebar .part_box{margin-bottom:18px;width:235px;}
+.part_box_review{position:relative;padding:20px 14px;}
+.part_box_review .photo{float:left;display:inline;margin:0 10px 10px 0;border:1px solid #d3d3d3;vertical-align:middle;}
+.part_box_review em{font-size:14px;color:#0f98f0;font-style:italic;}
+.part_box_review .msg{font-style:italic;font-size:12px;color:#666;line-height:1.5em;padding:5px 0;}
+.part_box_review .more{text-align:right;padding:0 50px 0 0;}
+.part_box_review .more a{color:#0f98f0;text-decoration:underline;}
+.part_box_review .slidesjs-navigation{position:absolute;display:inline-block;width:20px;height:20px;text-indent:-999px;overflow:hidden;bottom:20px;}
+.part_box_review .slidesjs-previous{background:url('http://www.easeus.com/images/new-img/arrow.png') -75px 0 no-repeat;right:40px;display:block;}
+.part_box_review .slidesjs-next{background:url('http://www.easeus.com/images/new-img/arrow.png') -95px 0 no-repeat;right:15px;display:block;}
+.part_box{float:right;display:inline;border:1px solid #dddddd;border-radius:3px;width:220px;overflow:hidden;}
+.part_box h4{font-size:16px;font-weight:normal;color:#fff;line-height:40px;background:#2da5da;margin:0;border-bottom:1px solid #ddd;padding:0 0 0 15px;}
+.part_box_list{margin:0 0 0 10px;}
+.part_box_list li{background:url('http://www.easeus.com/images/new-img/arrow.png') -156px 6px no-repeat;padding:5px 0 5px 10px;}
+/**8888888888888888888*/
+.ExpRecommend{width:1000px;overflow:hidden;zoom:1;float:left;}
+.ExpRecommend h2{background:none;font-size:26px;font-weight:normal;margin-top:10px;margin-left:20px;}
+.proReviews{float:left;overflow:hidden;padding:30px 0;}
+.proReviews h2{background:none;margin:0;padding:0;text-align:left;font-size:26px;font-weight:normal;}
+.userReview{width:300px;float:left;overflow:hidden;margin:0 0 0 20px;}
+.userReview .Slides{float:left;padding:20px 0 10px;overflow:hidden;width:1200px;height:90px;}
+.userReview .Slides li{width:300px;height:80px;padding:0 0 10px 0;list-style:none;text-align:left;display:block;overflow:hidden;border-bottom:1px solid #ddd;float:left;}
+.userReview .Slides p{float:left;width:300px;}
+.userReview .Slides img{float:left;padding-top:5px;}
+.userReview .Slides .userName{font-family:Segoe Print,Helvetica, Arial, sans-serif;}
+.userReview .Slidescontr{float:right;width:96px;}
+.userReview .Slidescontr li{width:20px;height:6px;background:#dcdcdc;cursor: pointer;display: inline-block;float:left;margin-right:5px;list-style:none;}
+.userReview .Slidescontr li.cur{background-color:#e60;}
+.expAwards{width:600px;float:left;overflow:hidden;margin:0 0 0 20px;}
+.expAwards .AwardsAndReview{margin:0 40px 0 0;padding:0;text-align:left;}
+.expAwards .AwardsAndReview p{padding:0;}
+.AwardsAndReview, .CleanMacAwardsAndReview{width:230px;height:150px;float:left;margin:40px 10px;text-align:center;}
+.CleanMacAwardsAndReview{height:200px;}
+.AwardsAndReview.awardsDeHeight{height:180px;}
+.AwardsAndReview.awardsDeHeight1{height:200px;}
+.CleanMacAwardsAndReview.macAwardsDeHeight{height:260px;}
+.AwardsAndReview p, .CleanMacAwardsAndReview p{text-align:left;padding-left:20px;}
+.AwardsAndReview p.Pt15px, .CleanMacAwardsAndReview p.Pt15px{padding-top:15px;}
+.AwardsAndReview p.Pt20px, .CleanMacAwardsAndReview p.Pt20px{padding-top:20px;}
+.AwardsAndReview p.Pt30px, .CleanMacAwardsAndReview p.Pt30px{padding-top:30px;}
+.AwardsAndReview p.PLeft30, .CleanMacAwardsAndReview p.PLeft30{padding-left:30px;}
+.AwardsAndReview p.dePLeft10, .CleanMacAwardsAndReview p.dePLeft10{padding-left:10px;}
+.AwardsAndReview p.PLeft45, .CleanMacAwardsAndReview p.PLeft45{padding-left:45px;}
+.AwardsAndReview img, .CleanMacAwardsAndReview img{margin-top:10px;}
+
+/*404 Page*/
+.ErrorPage{float:left;width:1002px;height:152px;background:url(http://www.easeus.com/images/banner_404.jpg) no-repeat;}
+.ErrorBannerP1{float:left;width:680px;padding:40px 0 0 345px;margin:0;font-size:17px;font-weight:bold;color:#3168B4;}
+.ErrorBannerP2{float:left;width:680px;padding:20px 0 0 345px;margin:0;font-size:16px;color:#096;}
+
+.SalesOffDiv{float:left;width:1002px;margin:0 0 0 0;overflow:hidden;}
+.SalesOffTitle{float:left;width:852px;height:104px;background:url(http://www.easeus.com/images/sales-off.jpg) no-repeat;padding:30px 0 0 150px;}
+.SalesOffP1{float:left;width:700px;margin:0;padding:0;font-size:16px;color:#7E7E7E;}
+.SalesOffP2{float:left;width:500px;margin:20px 0 0 0;padding:0;font-size:16px;color:#565455;}
+
+.SalesOffProducts{float:left;overflow:hidden;width:1000px;}
+.SalesOffProductsP1{font-size:18px;font-weight:bold;color:#114887;padding:0 0 0 10px;margin:10px 0;}
+.erroroff, .erroroff2{position:absolute;top:145px;left:620px;}
+.erroroff2{left:870px;}
+
+.RecProducts{float:left;width:236px;overflow:hidden;padding:7px;}
+.RecProducts h3{background:none;font-size:13px;margin:0;padding:0;}
+.RecProductsDes{color:#7C7C7C;}
+
+.SalesOffBuy{display:block;width:127px;height:40px;background:url(http://www.easeus.com/images/sales-off-buy.png) no-repeat;margin:0 auto;}
+.SalesOffBuy:hover{background:url(http://www.easeus.com/images/sales-off-buy-hover.png) no-repeat;}
+
+.SalesOffBottom{float:left;width:705px;height:7px;overflow:hidden;background:url(http://www.easeus.com/images/sales-off-bottom.jpg) no-repeat;}
+/*********************************/
+.ProductCon{width:1002px;overflow:hidden;zoom:1;position:relative;margin:0 auto;}
+.ConTopWindow{position:absolute;height:120px;width:1002px;background:url(http://www.easeus.com/images/bg-contopwindow.jpg) no-repeat;}
+.ConTopWindowNew{height:220px;background:#DDEEF2;position:relative;}
+.ProductCon h1{font-size:30px;display:block;height:60px;line-height:60px;position:absolute;top:10px;left:40px;}
+/* Data recovery video tutorial */
+.DrvtContent{width:1002px;overflow:hidden;zoom:1;margin-top:120px;margin-bottom:40px;position:relative;}
+.DrvtContentLeft{width:700px;overflow:hidden;zoom:1;float:left;}
+.DrvtContent h2{background:none;color:#114887;font-size:20px;}
+.DrvtCutLine{background:url('http://www.easeus.com/images/drw-products/drw-cutline.png') no-repeat 10px 20px;height:40px;width:700px;float:left;}
+.DrvtScreen{width:700px;overflow:hidden;zoom:1;float:left;margin-top:20px;}
+.DrvtScreenSmall{width:350px;float:left;overflow:hidden;zoom:1;}
+.DrvtScreen p, .DrvtScreenSmall p{margin:20px 0 0 30px;float:left;width:310px;text-align:center;font-weight:bold;}
+.DrvtScreen a, .DrvtScreenSmall a{display:block;width:310px;height:195px;}
+.DrvtTips{width:698px;border:1px solid #ebebeb;float:left;margin-top:20px;}
+.DrvtPTitle{background:url(http://www.easeus.com/images/drw-products/bg-drwrighth3.gif) repeat-x;height:37px;line-height:37px;font-size:14px;margin:0;padding-left:20px;}
+.ImProtTips{background:url(http://www.easeus.com/images/Icon_info.gif) no-repeat 20px 3px;padding-left:40px;}
+.DrvtContentRight{width:280px;float:right;padding-left:10px;margin-top:25px;}
+.DrvtRightDiv{width:278px;overflow:hidden;zoom:1;border:1px solid #ebebeb;padding-bottom:15px;margin-bottom:25px;}
+.DrvtRightDiv ul{margin:0 0 0 15px;}
+.DrvtRightDiv ul li{list-style:none;background:url(http://www.easeus.com/resource/images/arrow.png) no-repeat -156px 6px;padding:5px 0 5px 10px;}
+.DrvtRightDiv h3{font-size:16px;font-weight:normal;color:#fff;line-height:40px;background:#2da5da;margin:0;border-bottom:1px solid #ddd;padding:0 0 0 15px;}
+.DrvtRightDiv p{margin:0 20px;font-size:12px;}
+.PImg_MoneyBack{background:url(http://www.easeus.com/images/30day-b.png) no-repeat 60px 0;width:280px;height:120px;}
+.Quote1{width:19px;height:14px;background:url(http://www.easeus.com/images/drw-products/quote.png) no-repeat;position: absolute;left:30px;}
+.Quote2{width:19px;height:14px;background:url(http://www.easeus.com/images/drw-products/quote.png) no-repeat -21px 0;position: absolute;left:80px;top:810px;}
+.DrwTips li{list-style-image:none;}
+
+/*老产品页面样式*/
+.pro_detail_banner{overflow:visible !important;background:none;height:90px;}
+.pro_detail_banner h1{font-size:32px;color:#114887;text-align:center;padding:15px 0 15px;}
+.pro_detail_banner i{color:#69ecff;font-style:normal;}
+.msTapNav{height:40px;overflow:hidden;background:url('http://www.easeus.com/images/drw-products/drw-cutline.png') no-repeat;width:680px;margin:0 auto;}
+.msTapNav ul{width:420px;margin:0 auto;padding:0;height:40px;}
+.msTapNav ul li{list-style-image:none;list-style:none;float:left;width:100px;font-size:14px;text-align:center;height:40px;margin:0 5px 0 0;cursor:pointer;}
+.msTapNav ul li a{line-height:40px;color:#777;}
+.msTapNav ul li.Width130{width:130px;}
+.msTapNav ul li.techDe{width:200px;}
+.msTapNav ul li:hover{text-decoration:underline;}
+.msTapNavHover{border-top:3px solid #114887;}
+#proIntro{background:url('http://www.easeus.com/images/new-img/home_wave.gif') repeat-x 0 bottom #f6f6f6;padding:10px 0 30px;}
+.pro_intro_img{float:left;display:inline;width:440px;padding:10px;overflow:hidden;padding-top:20px;}
+.pro_intro_info{float:right;display:inline;width:540px;}
+.pro_intro_info .article_content{padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #c5c5c5;overflow:hidden;}
+.pro_intro_info h6{font-size:14px;font-weight:bold;color:#262626;padding:5px 0;}
+.pro_intro_info .article_content{padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #c5c5c5;overflow:hidden;}
+.pro_intro_info h6{font-size:14px;font-weight:bold;color:#262626;padding:5px 0;}
+.pro_intro_os{color:#262626;}
+.pro_intro_os li{padding:2px 0;list-style:none;}
+.pro_intro_os input{vertical-align:-2px;}
+.pro_intro_os input[type="radio"]{width:30px ;}
+.pro_intro_os a{color:#1e9ef0;}
+.pro_intro_purchase{padding:10px 0 0 !important;}
+.pro_detail_guide{padding:26px 0 0;}
+.pro_detail_guide_link{float:left;display:inline;font-size:14px;padding-left:170px;}
+.pro_detail_guide_link li{float:left;display:inline;padding:10px 6px 0;margin-right:16px;}
+.pro_detail_guide_link a{color:#ffffff;}
+.pro_detail_guide_link .current{border-top:3px solid #ffffff;padding-top:7px;}
+.pro_vote_rate{float:left;display:inline;padding:10px 20px 0;}
+.pro_vote_rate .star{float:left;display:inline;}
+
+.pro_detail_main{padding:25px 0 30px !important;overflow:hidden;}
+.pro_detailother_main{padding:150px 0 30px !important;}
+.pro_detail{width:730px;padding-bottom:20px;float:left;}
+.article_content.pro_detail h2{color:#1e9ef0;font-size:20px;line-height:1.5em;padding-bottom:15px;margin-top:0;}
+.pro_detail h2.title{padding-bottom:20px;font-size:26px;color:#666;}
+.pro_detail h2.title1{padding-bottom:10px;font-size:26px;color:#666;border-bottom:1px solid #CCC;width:730px;}
+.hr{border-top:1px solid #e4e5e7;border-bottom:1px solid #efeff0;height:0;margin:30px 0;clear:both;}
+.email{color:#1e9ef0;}
+#DrwFunction1, #DrwFunction2, #DrwFunction3, #DrwFunction4{font-size: 11px;float: left;width:160px;height:170px;padding:5px;margin:20px 40px 20px 0;}
+#DrwFunction1.deHeight1, #DrwFunction2.deHeight2, #DrwFunction3.deHeight3, #DrwFunction4.deHeight4{height:235px;}
+#DrwFunction1 p, #DrwFunction2 p, #DrwFunction3 p, #DrwFunction4 p{line-height:18px;padding:0 10px;margin: 5px 0 0;font-size:12px;}
+#DrwFunction1 h3, #DrwFunction2 h3, #DrwFunction3 h3, #DrwFunction4 h3{font-size:12px;font-weight:normal;text-align:center;font-weight:bold;line-height:20px;}
+#DrwFunction1 h3.deH3, #DrwFunction2 h3.deH3, #DrwFunction3 h3.deH3, #DrwFunction4 h3.deH3{padding-left:15px;text-align:left;}
+#DrwFunction1{background-color:#f2f8f2;margin-left:60px;}
+#DrwFunction2{background-color:#f8f6f2;}
+#DrwFunction3{background-color:#f6f2f8;width: 155px;}
+#DrwFunction4{background-color:#f2f4f8;}
+.userName{font-family:Segoe Print,Helvetica, Arial, sans-serif;}
+/*对比表格*/
+.compare_content{padding:30px 0 30px;}
+.tb_comparison{border:1px solid #e6e6e6;border-top:none;border-radius:4px 4px 4px 4px;border-collapse:collapse;}
+.tb_comparison thead th{background:#2062af;color:#ffffff;height:48px;padding-left:10px;border-right:1px solid #ffffff;}
+.tb_comparison thead em{font-weight:bold;font-size:16px;font-style:normal;}
+.tb_comparison tbody th{border-right:1px solid #ebecec;border-bottom:1px solid #ebecec;padding:10px 0 10px 10px;}
+.tb_comparison tbody td{text-align:center;border-right:1px solid #ebecec;padding:20px 10px;border-bottom:1px solid #ebecec;}
+.tb_comparison tbody .tr_price td{text-align:left;}
+.tb_comparison .price{display:block;padding:0 0 10px;}
+.tb_comparison tbody .red{font-size:20px;font-weight:bold;color:#ff5501;}
+.tb_comparison .even th,.tb_comparison .even td{background:#ebecec;border-right:1px solid #ffffff;}
+.tb_comparison .yes{background:url('http://www.easeus.com/images/new-img/icon_correct.png') no-repeat;width:23px;height:18px;display:block;margin:0 auto;}
+
+/* map */
+#map_bg{width:500px;height:247px;background:url('http://www.easeus.com/images/actregs/big_locatormap.gif') no-repeat;margin: 10px auto;}
+#map_actregs{width:500px;height:247px;background:url('http://www.easeus.com/images/actregs/0.gif') no-repeat;}
+#imb{width:500px;height:247px;border:0;}
+
+/*文章列表页*/
+.articleInfo{float:left;width:750px;padding-bottom:30px;}
+.reContent .pTitle1{border:1px solid #F2F2F2;border-radius:3px;background:#F2F2F2;height:30px;line-height:30px;padding:0 0 0 12px;margin:0;}
+.articleInfo ul{margin:0;padding:0;}
+.articleInfo ul li{list-style:none;margin:0;padding:10px 0 10px 15px;border-bottom:1px dotted #ddd; font-size:15px;}
+.articleInfo ul li a{color:#0087ff;}
+
+.articleInfo .articleInfoNav{border-bottom:1px solid #d9d9d9;margin-bottom:20px;overflow:hidden;}
+.articleInfo ul.articleInfoTab{padding-left:0;}
+.articleInfo ul.articleInfoTab li{color:#FFF;float:left;text-align:center;height:36px;padding:0 8px;line-height:35px;margin-right:7px;border-radius:3px 3px 0 0;font-size:16px;background:#65b3e1;filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr='#82c7f1',endcolorstr='#479fcf',gradientType=0);background:-moz-linear-gradient(top,#82c7f1,#479fcf 100%);background:-webkit-gradient(linear,0 0,0 100%,from(#82c7f1),to(#479fcf));border:none;cursor:pointer;}
+.articleInfo ul.articleInfoTab li.hover{background:#fff;filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr='#d9d9d9',endcolorstr='#ffffff',gradientType=0);background:-moz-linear-gradient(top,#d9d9d9,#ffffff 100%);background:-webkit-gradient(linear,0 0,0 100%,from(#d9d9d9),to(#ffffff));color: rgb(9, 110, 188);border:none;}
+.articleCon1, .articleCon2, .articleCon3, .articleCon4, .articleCon5{display: none;border:1px solid #f2f2f2;border-top:none;padding:0 15px;overflow:hidden;}
+.Active{display:block}
+.articleInfo .subTitle{margin:0 0 10px;height:30px;line-height:30px;border-bottom:1px dashed #999;font-size:16px;}
+.articleInfo ul.ProList li{width:210px;float:left;border-bottom:0;padding-left:0;margin:0 38px 20px 0;height:190px;position:relative;}
+.articleInfo ul.ProList li h4{background:none;font-weight:bold;padding:0;margin-bottom:10px;height:40px;font-size:14px;}
+.articleInfo ul.ProList li p{padding:0;margin:0 0 10px;}
+.articleInfo ul.ProList li .BuyBar{position:absolute;bottom:0;width:100%;}
+.articleInfo ul.ProList li p.PriP{text-align:center;font-size:14px;}
+.articleInfo ul.ProList li a.BtBuy{color:#FFF;}
+#BtofferBuy{display:block;width:135px;height:35px;line-height:35px;color:#F60;font-weight:bold;text-align:center;background-color:#fbe4d5;font-size:14px;cursor:pointer;margin-left:auto;margin-right:auto;}
+#BtofferBuy:hover{color:#F60;}
+/*side_related*/
+.side_related{margin-bottom:30px;}
+.side_related .title{background-color:#66b3ee;padding:12px 0 12px 10px;color:#fff;font-size:18px;font-weight:normal;margin-bottom:16px;}
+.side_related dl{border-bottom:1px solid #eaeaea;padding-bottom:16px;margin-bottom:14px;}
+.side_related dt{font-weight:bold;line-height:16px;margin-bottom:12px;}
+.side_related dd{font-size:14px;margin-bottom:4px;background:url(http://www.easeus.com/images_2016/arrow-gray-right.png) 0px 7px no-repeat;padding-left:12px;}
+.side_related dd a{color:#2f2f2f;}
+.side_related li{font-size:14px;margin-bottom:4px;background:url(http://www.easeus.com/images_2016/arrow-gray-right.png) 0px 11px no-repeat;padding:4px 0 4px 12px;border-bottom:1px solid #eaeaea;}
+.side_related li a{color:#2f2f2f;}
+/*side_top*/
+.side_top{margin-bottom:30px;}
+.side_top .title{font-size:18px;font-weight:normal;border-bottom:2px solid #81c8ff;padding-bottom:14px;margin-bottom:16px;}
+.side_top li{line-height:15px;margin-bottom:12px;background:url(http://www.easeus.com/images_2016/arrow-gray-right.png) 0px 6px no-repeat;padding-left:12px;}
+.side_top li a{color:#2f2f2f;color:#808080;font-size:14px;}
+/*side_editors*/
+.side_editors .title{font-size:18px;font-weight:normal;border-bottom:2px solid #81c8ff;padding-bottom:14px;margin-bottom:16px;}
+.side_editors li{position:relative;min-height:65px;margin-bottom:15px;}
+.side_editors li img{position:absolute;left:0;top:0;}
+.side_editors li .word{margin-left:75px;font-size:14px;line-height:18px;color:#808080;}
+.side_editors li .word a{color:#808080;}
+.side_editors .more{border-top:1px solid #eaeaea;border-bottom:1px solid #eaeaea;text-align:center;line-height:28px;}
+.side_editors .more a{display:inline-block;background:url(http://www.easeus.com/images_2016/icon-nav_arow-black.png) right center no-repeat;padding-right:18px;font-size:14px;color:#2f2f2f;}

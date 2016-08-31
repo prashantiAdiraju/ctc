@@ -1,0 +1,397 @@
+/*company-pages*/
+/*index*/
+.company_banner { background:url(http://www.easeus.com/images_2016/company/company-about_02.jpg) center no-repeat; background-size: cover; min-height:520px; color:#fff; text-align: center;}
+.company_banner .title {font-size:42px; padding-top:8%; margin-bottom:30px; line-height:45px;}
+.company_banner .des {font-size:22px; line-height:32px; margin-bottom:30px;}
+.company_banner .des_2 a {font-size:26px; color:#fff002; text-decoration:underline;}
+.company_nav{background:#efefef;text-align:center;padding-top:16px;margin-bottom:70px;}
+.company_nav a{display:inline-block;color:#2f2f2f;font-size:18px;padding:70px 1.5% 20px 1.5%;margin:0 1.5%;}
+.company_nav a:hover,.company_nav a.current{text-decoration:none;color:#0087ff;border-bottom:2px solid #0087ff;padding-bottom:18px;}
+.company_nav .about{background:url(http://www.easeus.com/images_2016/company/icon-company_03-08.png) center 0px no-repeat;}
+.company_nav .about.current,.company_nav .about:hover{background:url(http://www.easeus.com/images_2016/company/icon-company_03.png) center 0px no-repeat;}
+.company_nav .contact{background:url(http://www.easeus.com/images_2016/company/icon-company_03-07.png) center 0px no-repeat;}
+.company_nav .contact.current,.company_nav .contact:hover{background:url(http://www.easeus.com/images_2016/company/icon-company_03-02.png) center 0px no-repeat;}
+.company_nav .press_room{background:url(http://www.easeus.com/images_2016/company/icon-company_27.png) center 0px no-repeat;}
+.company_nav .press_room.current,.company_nav .press_room:hover{background:url(http://www.easeus.com/images_2016/company/icon-company_03-06.png) center 0px no-repeat;}
+.company_nav .press{background:url(http://www.easeus.com/images_2016/company/icon-company_03-09.png) center 0px no-repeat;}
+.company_nav .press.current,.company_nav .press:hover{background:url(http://www.easeus.com/images_2016/company/icon-company-03-03.png) center 0px no-repeat;}
+.company_nav .media{background:url(http://www.easeus.com/images_2016/company/icon-company-03-10.png) center 0px no-repeat;}
+.company_nav .media.current,.company_nav .media:hover{background:url(http://www.easeus.com/images_2016/company/icon-company-03-04.png) center 0px no-repeat;}
+.company_nav .reviewer{background:url(http://www.easeus.com/images_2016/company/icon-company-03-11.png) center 0px no-repeat;}
+.company_nav .reviewer.current,.company_nav .reviewer:hover{background:url(http://www.easeus.com/images_2016/company/icon-company-03-05.png) center 0px no-repeat;}
+.company_box1 {text-align:center; margin-bottom:70px;}
+.company_box1 .pro_title {margin-bottom:50px;}
+.company_box1 .list li {float:left; width:29%; margin-right:2%; padding:0 1%;}
+.company_box1 .list li.last {margin-right:0;}
+.company_box1 .list .img {margin-bottom:20px; display:block;}
+.company_box1 .list .title {margin-bottom:10px;}
+.company_box2 {background:#006dc4;  margin-bottom:70px; padding-bottom:50px;}
+.page_title {font-size:32px; line-height:32px; margin-bottom:50px; font-weight:normal;}
+
+.company_box2 .page_title {text-align:center; padding-top:5%; color:#fff;}
+.company_box2 .list li {float:left; width:47%; margin-right:2%; background:#fff; padding:20px 0; padding-right:1%;  margin-bottom:50px; position:relative; min-height:160px;}
+.company_box2 .list li.no2,.company_box2 .list li.no4 {margin-right:0;}
+.company_box2 .list li h3 {margin-bottom:20px;}
+.company_box2 .list li span {position:absolute; left:0; top:-30px;}
+.company_box2 .list .des {margin-left:100px;}
+.company_box2 .des_p  {color:#fff; text-align:center; font-size:18px;}
+.company_box2 .des_p a {color:#fff; text-decoration:underline;}
+.company_box3 {text-align:center;}
+.company_box3 img {margin-right:2%; margin-bottom:30px;}
+
+.company_user_say{text-align:center;position:relative;margin-bottom:30px;width:100%;overflow:hidden;padding:50px 0 0  0;}
+.company_user_say .list{position:relative;}
+.company_user_say .list li{float:left;width:100%;overflow:hidden;}
+.company_user_say .des{font-size:20px;line-height:36px;max-width:800px;margin:0px auto;position:relative;margin-bottom:30px;color:#514F4F;}
+.company_user_say .left_quotes,.company_user_say .right_quotes{display:inline-block;background:url(http://www.easeus.com/images_2016/icon-index.png) 0 -720px no-repeat;width:25px;height:25px;position:absolute;}
+.company_user_say .left_quotes{top:0px;left:-26px;}
+.company_user_say .right_quotes{background-position:0 -806px;bottom:0px;right:-26px;}
+.company_user_say .left_click,.company_user_say .right_click{display:block;cursor:pointer;width:42px;height:76px;background:url(http://www.easeus.com/images_2016/icon-index.png) 0px -478px no-repeat;position:absolute;top:50%;left:50%;margin:-40px 0 0 -520px;}
+.company_user_say .left_click:hover{background-position:-58px -478px;}
+.company_user_say .right_click{background-position:0px -602px;margin:-40px 0 0 490px;}
+.company_user_say .right_click:hover{background-position:-58px -602px;}
+.company_box4 {margin-bottom:70px;}
+.company_box4 .page_title {text-align:center;}
+.company_box4 .left_box {float:left; width:40%; text-align:center;}
+.company_box4 .left_box p {font-size:18px; line-height:25px; margin-bottom:10px;}
+.company_box4 .right_box {float:right; width:40%;}
+.company_box4 .email_table td {padding:5px 10px;}
+.list_img2 li{line-height:35px; position:relative; }
+.list_img2 li .img{position:absolute; left:0; top:5px; display:inline-block; }
+.list_img2 li .des{margin-left:45px; width:80%; display:inline-block; line-height:25px;}
+.company_box4 .list_img2 li {float:left; width:50%; margin-bottom:50px; font-size:22px;} 
+.company_box4 .list_img2 .img {margin-right:10px;}
+.company_box4 .title_box {border-bottom:1px solid #2f2f2f; line-height:35px; padding-bottom:10px; margin-bottom:30px; text-align:left;}
+.company_box4 .title_box_special {font-size:26px; position:relative;border-bottom:1px solid #2f2f2f; padding-bottom:25px; margin-bottom:30px; }
+.company_box4 .title_box_special .line {display:block; height:2px; background:#000; width:150px; position:absolute; left:0; bottom:0;}
+.company_box4.contact .right_box {width:52%;}
+.company_box4 .title_box .title {border-bottom:2px solid #000; font-size:26px; line-height:35px; padding-bottom:8px;}
+.company_box5 {background:#f2f3f5; padding:50px 0; margin-bottom:70px;}
+.company_box5 .page_title {text-align:center;}
+.company_box5 .list li {float:left; width:40%; margin-right:5%; text-align:center;}
+.company_box5 .list li.last {float:right; margin-right:0;}
+.company_box5 .list .img {margin-bottom:20px; display:block;}
+.company_box5 .list .title {margin-bottom:10px;}
+.company_box6 {margin-bottom:70px; background:#f2f3f5;}
+.company_box6 .left_box {float:left; width:45%; background:#f2f3f5; padding:5% 0 0 5%; }
+.company_box6 .right_box {float:right; width:50%; }
+.company_box6 .right_box img {width:100%; }
+.company_box6 h3 {margin-bottom:10px;}
+.company_box6 p {margin-bottom:20px;}
+.company_box7 { padding:50px 0; background:#006dc4; color:#fff;}
+.company_box7 .page_title {text-align:center;}
+.year_scroll_box {height:80px; position:relative; width:90%; margin:0 auto; margin-bottom:50px; position:relative;}
+.year_scroll_box .left_click { display:block; width:20px; height:34px; background:url(http://www.easeus.com/images_2016/company/icon-company_39.png) 0 -130px no-repeat; position:absolute; left:-20px; top:20px; cursor:pointer;}
+.year_scroll_box .left_click:hover {background-position: 0 1px;}
+.year_scroll_box .right_click { display:block; width:20px; height:34px; background:url(http://www.easeus.com/images_2016/company/icon-company_39.png) -81px -130px no-repeat;  position:absolute; right:-20px; top:20px; cursor:pointer;}
+.year_scroll_box .right_click:hover {background-position: -81px 1px;}
+.year_scroll_box .year_scroll {overflow:hidden; height:80px; position:relative; margin: 0 30px;}
+.year_scroll_box .year_scroll .line {height:1px; background:#fff; position:absolute; top:35px; width:100%; z-index:1;}
+.year_scroll_box .year_scroll .list{position:absolute; left:-630px; top:0;}
+.year_scroll_box .year_scroll .list li {float:left; width:118px; height:90px;position:relative;}
+.year_scroll_box .year_scroll .list li.last {margin-right:0;}
+.year_scroll_box .year_scroll .click_span {display:inline-block; height:20px; padding-top:60px; background:url(http://www.easeus.com/images_2016/company/icon-company_35.png) center -109px no-repeat; z-index:99; position:relative; cursor:pointer; position:absolute; left:20px; top:0;}
+.year_scroll_box .year_scroll .click_span.current,.year_scroll_box .year_scroll .click_span:hover {background-position: center 20px; font-size:20px; margin-left:-5px;}
+.year_content_box .year_content {width:80%; margin:0 auto; text-align:center;}
+
+/*company inner pages*/
+
+.press_room_banner {background:url(http://www.easeus.com/images_2016/company/banner-bg-company-press-room.jpg) center no-repeat; background-size:cover; min-height:150px; color:#fff; text-align:center;}
+.press_room_banner.contact {background-image:url(http://www.easeus.com/images_2016/company/banenr-bgcompany-contact.jpg)}
+.press_room_banner .title {font-size:38px; line-height:40px; padding-top:50px;}
+.press_room_box1 {margin-bottom:70px; text-align:center;}
+.press_room_box1 .page_title {margin-bottom:40px;}
+.press_room_box1 .des_p {margin-bottom:30px;}
+.company_box1 .title .word {color:#2f2f2f;}
+.company_box1 .list .des { min-height:70px;}
+.review_guide_box1 {text-align:center; margin-bottom:70px;}
+.review_guide_box1 .des_big {font-size:22px; line-height:22px; margin:30px auto;}
+.review_guide_box1 .list_pdf li span {background:url(http://www.easeus.com/images_2016/company/company-press-room_13.png) 0 10px no-repeat; width:20px; height:30px; display:inline-block; margin-right:5px;}
+.review_guide_box1 .list_pdf li {line-height:35px;}
+.company_box4 .contact_form td {padding:15px 10px; vertical-align:top;}
+.company_box4 .contact_form .infor {font-size:14px;}
+.company_box4 .contact_form input.text{border:1px solid #ddd;height:35px;padding-left:10px; width:50%;}
+.company_box4 .contact_form textarea{border:1px solid #ddd; width:90%;}
+.company_box4 .contact_form select{border:1px solid #ddd;height:35px; width:75%;}
+.company_box4 .contact_form .button{height:45px;line-height:45px;font-size:16px;display:inline-block;padding:0 35px;background:#0086ff;color:#fff; cursor:pointer; margin-bottom:30px;}
+.company_box4 .contact_form .note {color:#f37801;}
+.media_box1 {margin-bottom:70px; }
+.media_box1 .table_box {overflow:auto;}
+.media_box1 h2 {text-align:center; font-size:25px; margin-bottom:30px; font-weight:normal;}
+.media_box1 h2.align_left {text-align:left;}
+.media_box1 .media_table td,.media_box1 .media_table th {padding:20px 0 20px 65px;}
+.media_box1 .media_table th {font-size:18px; font-weight:normal;}
+.media_box1 .media_table {border-bottom:1px solid #e1e1e1; margin-bottom:40px;}
+.media_table th { text-align:left; border-right:1px solid #fff;}
+.media_table .bg_gray td {border-right:1px solid #fff;}
+.media_table .no_boder {border-right:none;}
+.media_box1 .media_table  .title {padding-left:25px;}
+.media_box1 .media_table a {background:url(http://www.easeus.com/images_2016/company/company-press-room_14.png) no-repeat 0 5px; padding-left:18px;}
+.media_box1 .media_table.no2 th,.media_box1 .media_table.no2 td {padding:20px 0 20px 18px;}
+.media_box1 .media_table .AlignCenter {text-align:center;}
+.media_box1 .media_table.no2 {margin-bottom:20px;}
+.media_box1 .note {text-align:right; margin-bottom:40px;}
+.media_box1 .list_note li {line-height:30px; background:url(http://www.easeus.com/images_2016/company/icon-company.png) 0 7px no-repeat; padding-left:15px; }
+.media_box1 .list_note {margin-bottom:30px;}
+.press_box1 {margin-bottom:40px;}
+.press_box1 .box_tab {max-width:800px; margin:20px auto;}
+.press_box1 .cate_tab li{float:left;width:15%; border-right:1px solid #fff; height:40px;line-height:40px;text-align:center;color:#237bc3;background:#f2f2f2;position:relative;cursor:pointer; display:inline-block; *display:inline;}
+.press_box1 .cate_tab li.current,.press_box1 .cate_tab li:hover{color:#fff;background:#0078d7;}
+.press_box1 .cate_tab li span{ background:url(http://www.easeus.com/images_2016/company/icon-company-arrow.png) 0 0 no-repeat; width:16px;height:10px;overflow:hidden;position:absolute;top:38px;left:50%;margin-left:-8px; display:none;}
+.press_box1 .cate_tab li:hover span,.press_box1 .cate_tab li.current span {display:block;}
+.press_box1 .cate_tab_list li{ background:url(http://www.easeus.com/images_2016/company/icon-company.png) 11px 18px no-repeat;margin:10px 0;}
+.press_box1 .list_news li {padding:10px 0 10px 30px; line-height:30px;}
+.press_box1 .list_news li:nth-child(even) {background:#f7f7f7 url(http://www.easeus.com/images_2016/company/icon-company.png) 11px 18px no-repeat;}
+.press_box2 h2 {font-size:26px; font-weight:normal; margin-bottom:20px; line-height:30px;}
+.press_box2 {margin-bottom:70px;}
+.press_box2 .list_more li {width:30%; float:left; margin-bottom:15px; line-height:20px; background: url(http://www.easeus.com/images_2016/company/icon-company.png) 0 -108px no-repeat; padding-left:10px;}
+/*news-leftside*/
+.sidebar_share h2{border-bottom:1px solid #e6e6e6;font-weight:normal;line-height:40px;padding-left:20px;font-size:16px;}
+.sidebar_share ul{margin:25px 0;}
+.sidebar_share li{background:url(http://images.easeus.com/images/en/company-community.png) 10px 0px no-repeat;padding-left:50px;height:30px;line-height:30px;margin:4px 0; font-size:15px;}
+.sidebar_share li.twitter{background-position:10px -33px;}
+.sidebar_share li.youtube{background-position:10px -66px;}
+.sidebar_share li.blog{background-position:10px -99px;}
+.sidebar_share li.forum{background-position:10px -132px;}
+#Awards{background:url('http://www.easeus.com/images/awards.gif') no-repeat center 50px;height:125px;}
+#Awards h2,.sidebar_share h2{border-bottom:1px solid #e6e6e6;font-weight:normal;line-height:40px;padding-left:20px;font-size:16px;}
+/*partner_banner*/
+.partner_banner{background:url(http://www.easeus.com/images_2016/partner/partner-banner.jpg) center no-repeat; background-size:cover; min-height:250px; color:#fff;}
+.partner_banner .title{font-weight:normal; font-size:32px; line-height:40px; padding:6% 0 10px 0; text-align:center;}
+.partner_banner .des{font-size:18px; text-align:center;}
+/*partner_nav*/
+.partner_nav{background-color:#f2f2f2; position:relative; z-index:50; margin-bottom:4.5%;}
+.partner_nav .list{text-align:center;}
+.partner_nav .list li{display:inline-block;*display:inline;zoom:1; padding:0 1.5%; position:relative; vertical-align:top;}
+.partner_nav .list li:hover,.partner_nav .list li.current{border-bottom:2px solid #0087ff;}
+.partner_nav .link{padding-top:50px; display:block; height:38px; vertical-align:top; color:#232323;}
+.partner_nav .current .link,.partner_nav li:hover .link{text-decoration:none;color:#0087ff;}
+.partner_nav .arrow{background:url(http://www.easeus.com/images_2016/partner/partner-menu-list.png) no-repeat; width:7px; height:4px; display:inline-block; vertical-align:middle; margin:0 0 0 8px;}
+.partner_nav li:hover .arrow{visibility:hidden;}
+.partner_nav .box{position:absolute; left:0; top:80px; width:100%; text-align:left;background-color:#0087ff; padding:0px 0 10px 0; display:none;}
+.partner_nav .box a{display:block; color:#fff; background:url(http://www.easeus.com/images_2016/partner/partner-menu-list-hover.png) 16px 8px no-repeat; padding-left:26px;}
+.partner_nav li:hover .box{display:block;}
+.partner_nav .overview .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-1-default.png) center 18px no-repeat;}
+.partner_nav .current.overview .link,.partner_nav .overview:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-1-check.png);}
+.partner_nav .reseller:hover{background-color:#0087ff; z-index:51;}
+.partner_nav .reseller .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-2-default.png) center 18px no-repeat;}
+.partner_nav .current.reseller .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-2-check.png);}
+.partner_nav .reseller:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-2-hover.png);color:#fff;}
+.partner_nav .reseller .link:hover{text-decoration:underline;}
+.partner_nav .affiliate .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-3-default.png) center 18px no-repeat;}
+.partner_nav .current.affiliate .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-3-check.png);}
+.partner_nav .affiliate:hover{background-color:#0087ff; z-index:51;}
+.partner_nav .affiliate:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-3-hover.png);color:#fff;}
+.partner_nav .affiliate .link:hover{text-decoration:underline;}
+.partner_nav .oem .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-4-default.png) center 18px no-repeat;}
+.partner_nav .current.oem .link,.partner_nav .oem:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-4-check.png);}
+.partner_nav .service .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-5-default.png) center 18px no-repeat;}
+.partner_nav .current.service .link,.partner_nav .service:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-5-check.png);}
+.partner_nav .investor .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-6-default.png) center 18px no-repeat;}
+.partner_nav .current.investor .link,.partner_nav .investor:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-6-check.png);}
+.partner_nav .contact .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-7-default.png) center 18px no-repeat;}
+.partner_nav .current.contact .link,.partner_nav .contact:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-7-check.png);}
+/*partner_title*/
+.partner_title{margin-bottom:2.5%; text-align:center;}
+.partner_title .word{background:#409ff4 url(http://www.easeus.com/images_2016/partner/partner-title-left.png) left center no-repeat; display:inline-block; line-height:38px; color:#fff; position:relative; padding:0 40px; font-size:24px;}
+.partner_title .arrow_right{background:url(http://www.easeus.com/images_2016/partner/partner-title-right.png) no-repeat; display:block; width:15px; height:38px; position:absolute; right:0; top:0;}
+.partner_title2{font-size:24px; border-left:6px solid #ff9900; line-height:30px; padding-left:8px; margin-bottom:30px;}
+/*overview_banner*/
+.overview_banner{margin-bottom:4.5%;}
+.overview_banner .img{float:left; width:39%;}
+.overview_banner .img img{max-width:100%;}
+.overview_banner .word{float:right; width:57%;}
+.overview_banner .word p{margin-bottom:20px;}
+.overview_banner .mail{background:url(http://www.easeus.com/images_2016/partner/partner-overview-maile.png) no-repeat; padding-left:40px;}
+/*overview_box*/
+.overview_box{background-color:#f5f5f5; margin-bottom:4.5%;}
+.overview_box .wrap_1200{padding:4% 0; border-bottom:1px solid #e8e8e8;}
+.overview_box .left{float:left;}
+.overview_box .right{float:right;}
+.overview_box .img{width:31%; text-align:center;}
+.overview_box .img img{max-width:100%;}
+.overview_box .word{width:68%;}
+.overview_box .t{margin-top:2%;}
+.overview_box .word h3{margin-bottom:20px; font-size:22px; font-weight:normal;}
+/*our_partner*/
+.our_partner{margin-bottom:4.5%;}
+.our_partner .title{font-size:28px; line-height:30px; text-align:center; margin-bottom:3%;}
+.our_partner .img{text-align:center;}
+/*partner_product*/
+.partner_product{margin-bottom:4.5%;}
+.partner_product .left,.partner_product .right{float:left; width:48%; background-color:#f3f3f3;}
+.partner_product .right{float:right;}
+.partner_product .img img{max-width:100%;}
+.partner_product .title{background-color:#2d8cec; color:#fff; text-align:center; line-height:46px; font-size:20px;}
+.partner_product .list{padding:20px 0; min-height:112px;}
+.partner_product .list li{float:left; width:43%; background:url(http://www.easeus.com/images_2016/arrow-gray-right.png) 20px 7px no-repeat; padding-left:6%; margin-bottom:6px;}
+.partner_product .list li a{color:#232323;}
+
+/*reseller_banner*/
+.reseller_banner{margin-bottom:4.5%; font-size:18px;}
+.reseller_banner .box{padding:3% 0 2% 50px; max-width:580px;}
+.reseller_banner .reseler{background:url(http://www.easeus.com/images_2016/partner/partner-pic-reseller.jpg) center no-repeat; min-height:260px; background-size:cover;}
+.reseller_banner .af{background:url(http://www.easeus.com/images_2016/partner/partner-pic-affiliate.jpg) center no-repeat; min-height:285px; background-size:cover;}
+.reseller_banner .oem{background:url(http://www.easeus.com/images_2016/partner/partner-pic-oem.jpg) center no-repeat; min-height:250px; background-size:cover;}
+.reseller_banner .oem .box{padding-top:6%;}
+.reseller_banner .provide{background:url(http://www.easeus.com/images_2016/partner/partner-pic-service.jpg) center no-repeat; min-height:250px; background-size:cover;}
+.reseller_banner .provide .box{max-width:none; padding-top:6%;}
+.reseller_banner .invetor{background:url(http://www.easeus.com/images_2016/partner/partner-pic-investor.jpg); min-height:250px; background-size:cover;}
+.reseller_banner .contact{background:url(http://www.easeus.com/images_2016/partner/partner-pic-contact.jpg) center no-repeat; min-height:270px; background-size:cover;}
+.reseller_banner p{margin-bottom:15px;}
+.reseller_banner .des{font-size:22px; line-height:30px; margin-bottom:0;}
+.reseller_banner .title{font-size:34px; line-height:40px; margin-bottom:20px;}
+.reseller_banner .title2{font-size:30px; line-height:32px;}
+.reseller_banner .button{display:block; width:170px; height:42px; line-height:42px; background-color:#f38a01; color:#fff; font-size:18px; text-align:center;}
+.reseller_banner .word p{font-size:18px; margin:15px 0;}
+/*reseller_key*/
+.reseller_key{margin-bottom:3.5%;}
+.reseller_key .list li{float:left; width:50%; position:relative; min-height:110px; margin-bottom:30px;}
+.reseller_key .list .img{position:absolute; left:0; top:0; width:100px; text-align:center;}
+.reseller_key .list .box{margin-left:120px; max-width:70%;}
+.reseller_key .list .tit{font-weight:bold; font-size:18px; margin:10px 0 10px 0;}
+/*reseller_level*/
+.reseller_level{margin-bottom:4.5%;}
+.reseller_level li{float:left; width:25%;}
+/*reseller_work*/
+.reseller_work{margin-bottom:4.5%;}
+.reseller_work li{margin-bottom:15px;}
+/*app*/
+.app_content{margin-bottom:4.5%;}
+.app_content p{margin-bottom:15px;}
+.app_content input,.app_content select,.app_content textarea{border:1px solid #ddd; height:35px; line-height:35px; padding-left:8px; border-radius:3px;}
+.app_content table{border-collapse:collapse;}
+.app_content table td{border:1px solid #ddd; padding:5px; vertical-align:middle;}
+.app_content .button{background-color:#ff9900; width:180px; height:46px; font-size:18px; color:#fff;}
+/*reseller_map*/
+.reseller_map{text-align:center;min-width:500px; height:247px;background:url(http://www.easeus.com/images/actregs/big_locatormap.gif) center no-repeat; margin-bottom:4.5%;}
+.reseller_map .map{background:url(http://www.easeus.com/images/actregs/big_locatormap.gif) center no-repeat;}
+.reseller_table{border-collapse:collapse; width:100%; margin-bottom:4.5%;}
+.reseller_table td{border:1px solid #ddd; padding:8px; vertical-align:middle;}
+.reseller_table td *{vertical-align:middle;}
+.reseller_table td img{margin:0 5px;}
+.reseller_table th{background-color:#ececec; font-size:22px; line-height:28px; padding:10px 0; font-weight:normal;}
+/*partner_list*/
+.partner_list{margin-bottom:30px;}
+.partner_list li{background:url(http://www.easeus.com/images/icon-project-icon.png) 0px 8px no-repeat;padding:6px 0 6px 20px;line-height:20px;}
+/*affiliate_terms*/
+.affiliate_terms{margin-bottom:4.5%;}
+.affiliate_terms p{margin-bottom:15px;}
+.affiliate_terms .have{text-align:center; margin-bottom:20px;}
+.affiliate_terms .have span{background:url(http://www.easeus.com/images/partner/affiliate/partner-affiliate_21.png) 0px -32px no-repeat;display:inline-block;padding-left:22px;color:#238ed4;font-size:15px;cursor:pointer;}
+.affiliate_terms .have span.current{background-position:0px 3px;}
+.affiliate_terms .button{text-align:center;}
+.affiliate_terms .button a{display:inline-block; width:260px; height:55px; line-height:55px; background-color:#f38a01; color:#fff; text-align:center; font-size:20px;}
+/*partner_tab*/
+.partner_tab{border-bottom:1px solid #ddd;padding-left:10px;margin-bottom:40px; text-align:center;}
+.partner_tab li{border:1px solid #f2f2f2;margin:0 2px;background:#f2f2f2;margin-bottom:1px;width:120px;text-align:center;line-height:38px;cursor:pointer; display:inline-block; *display:inline; zoom:1; vertical-align:top;}
+.partner_tab li.current{background:#fff;border:1px solid #ddd;border-bottom:1px solid #fff;color:#0d3897;margin-bottom:-1px;padding-bottom:2px;}
+/*affiliate_content*/
+.affiliate_content{text-align:center; margin-bottom:4.5%;}
+.affiliate_content img,.affiliate_content p{margin-bottom:15px;}
+/*partner_logo*/
+.marketing_logo{margin-bottom:50px;}
+.marketing_logo div{margin:20px 0 0 56px;display:inline-block; *display:inline; zoom:1; vertical-align:top;}
+.marketing_logo div a{background:#f2f2f2;width:70px;line-height:70px;border-radius:5px;text-align:center;margin:0 4px;display:inline-block;}
+.marketing_logo div a:hover{background:#87b552;color:#fff;}
+/*marketing_table*/
+.marketing_table{border-collapse:collapse; widows:100%;}
+.marketing_table td{border:1px solid #ddd; padding:30px 0 10px 0; width:33.3%;}
+/*partner_scroll*/
+.partner_scroll_all{position:relative;margin-bottom:50px;}
+.partner_scroll{width:550px;margin:0px auto;position:relative;overflow:hidden;}
+.partner_scroll ul{position:relative;}
+.partner_scroll li{float:left;text-align:center;}
+.partner_scroll_all .click_left,.partner_scroll_all .click_right{display:block;background:url(http://www.easeus.com/images/icon-switch.jpg) no-repeat;width:46px;height:46px;cursor:pointer;position:absolute;top:40%;left:0px;}
+.partner_scroll_all .click_right{background-position:0px -97px;left:auto;right:0px;}
+.partner_scroll_all .click_left:hover{background-position:0px -291px;}
+.partner_scroll_all .click_right:hover{background-position:0px -194px;}
+.partner_scroll_all .list{text-align:center;}
+.partner_scroll_all .list span{display:inline-block;background:#d3d3d3;width:12px;height:12px;border-radius:6px;margin:0 6px;cursor:pointer;}
+.partner_scroll_all .list .current{background:#039dd1;}
+.partner_scroll .partner_more{margin-bottom:10px;}
+/*oem_word*/
+.oem_word{margin-bottom:4.5%;}
+.oem_word .title{font-size:16px; font-weight:bold; margin:15px 0;}
+/*contact_mail*/
+.contact_mail{margin-bottom:3.5%;}
+.contact_mail .list li{float:left; width:33%; position:relative; min-height:100px;}
+.contact_mail .list .img{position:absolute; left:0; top:0; width:100px;}
+.contact_mail .list .box{margin-left:90px; max-width:70%;}
+.contact_mail .list .tit{font-weight:bold; font-size:18px; margin:10px 0 10px 0;}
+.contact_mail .list .tit span{display:inline-block;}
+.contact_mes li{margin:15px 0;}
+.contact_mes *{vertical-align:middle;}
+
+/*article*/
+.LeftSideBar{float:left;width:26%;margin-bottom:30px;}
+.LeftSideBar a{color:#494a4e;display:block;}
+.subdiv{background:#f2f2f2;margin-bottom:20px;}
+.subdiv h2{font-size:16px;font-weight:normal;color:#fff;line-height:40px;background:#6ec2e7;margin:0;border-bottom:1px solid #ddd;padding:0 0 0 15px;}
+.subdiv dl,.subdiv ul{padding-bottom:10px;}
+.subdiv dl dt,.subdiv ul li{margin-left:15px;padding:5px 0 5px 10px;background:url(http://images.easeus.com/images/en/icon-mobi-list.png) 0px 13px no-repeat;}
+.subdiv dl dd{background:url(http://www.easeus.com/images/en/icon_dot.gif) left 9px no-repeat;padding-left:10px;margin-left:28px;}
+.RightContext .list_dian li{background:url(http://www.easeus.com/images/en/icon_dot.gif) left 9px no-repeat;padding-left:10px;}
+.subdiv dl dd a{color:#717783;}
+.RightContext{float:right;width:71%;margin-bottom:30px;}
+.RightContext p{margin:15px 0;}
+.RightContext ul{margin:15px 0;}
+.RightContext h1{font-size:22px;font-weight:normal;margin-bottom:20px;}
+.RightContext h2{font-size:20px;font-weight:normal;margin-bottom:20px;}
+.RightContext h3{margin-bottom:20px;font-size:18px;font-weight:normal;}
+.RightContext h4{color:#555;font-size:15px;}
+.RightContext .fr{float:right;margin:0 0 20px 20px;}
+.RightContext .fl{float:left;margin:0 20px 20px 0;}
+.RightContext .partner_tab{border-bottom:1px solid #ddd;padding-left:10px;margin-bottom:30px;}
+.RightContext .partner_tab li{float:left;border:1px solid #f2f2f2;margin:0 5px;background:#f2f2f2;margin-bottom:1px;width:120px;text-align:center;line-height:38px;cursor:pointer;}
+.RightContext .partner_tab li.current{background:#fff;border:1px solid #ddd;border-bottom:1px solid #fff;color:#0d3897;margin-bottom:-1px;padding-bottom:2px;}
+.RightContext .partner_title{background:#6ec2e7 url(http://www.easeus.com/images/en/bg_partner_title.jpg) right center no-repeat;display:inline-block;*display:inline;color:#fff;line-height:20px;padding:8px 20px 8px 16px;min-width:140px;margin-bottom:0px;font-size:16px;}
+.RightContext .partner_title.mar_b{margin-bottom:20px;}
+.RightContext .partner_logo .img{float:left;}
+.RightContext .partner_logo div{float:left;margin:20px 0 0 56px;}
+.RightContext .partner_logo div a{background:#f2f2f2;color:#86b452;width:70px;line-height:70px;border-radius:5px;text-align:center;margin:0 4px;display:inline-block;}
+.RightContext .partner_logo div a:hover{background:#87b552;color:#fff;}
+.RightContext .partner_table td{padding:30px 0 10px 0;width:33%;}
+.RightContext .partner_more{text-align:right;}
+.RightContext .partner_more a{color:#0d3896;}
+.RightContext .partner_list li{background:url(http://www.easeus.com/images/icon-project-icon.png) 0px 8px no-repeat;padding:6px 0 6px 20px;line-height:20px;}
+
+/*top_banner*/
+.top_banner{min-height:100px; padding-bottom:20px;background:url(http://images.easeus.com/images/en/bg-topbanner.jpg) center 0 no-repeat;margin-bottom:30px; background-size:cover;}
+.top_banner.partner{background:url(http://images.easeus.com/images/en/topbg-partner.jpg) no-repeat;}
+.top_banner.no_margin{margin-bottom:0px;}
+.top_banner h1{font-size:32px;color:#FFF;font-weight:normal; padding-top:30px; line-height:36px; margin-bottom:10px;}
+.top_banner h1 span{line-height:30px;font-size:22px;display:block;}
+.top_banner.store{background:url(http://www.easeus.com/images/en/topbg-store.jpg) center no-repeat;height:70px;}
+.top_banner.store h1,.top_banner.download h1,.top_banner.download_drwmac h1{line-height:70px;}
+.top_banner.download{background:url(http://www.easeus.com/images/en/topbg-download.jpg) no-repeat;height:70px;}
+.top_banner.download_drwmac{background:url(http://www.easeus.com/images/en/bg-topbanner-drwmac.jpg) no-repeat;height:70px;}
+.top_banner.thankyou{height:250px;margin-bottom:50px;background:url(http://images.easeus.com/images/en/topbg-thank.jpg) no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

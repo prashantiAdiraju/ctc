@@ -109,7 +109,7 @@ care combined with advanced technology to give you reliable answers fast! </p>
             	<a class="nav_a" href="patient.html">FOR PATIENTS</a>
                 <dl class="partners">
                     <dt><span class="icon partner"></span>FOR PATIENTS</dt>
-                    <dd><a class="word" href="patient.html">Scheduling</a></dd>
+                    <dd><a class="word" href="patient.html#Scheduling" href="javascript:void(0)" onclick="openTabs(event, 'Scheduling')">Scheduling</a></dd>
                     <dd><a class="word" href="https://form.jotform.me/60963940237460">Downloadable Forms</a></dd>
                     <dd><a class="word" href="patient.html">Important Info</a></dd>
                     <dd><a class="word" href="patient.html">FAQs</a></dd>
@@ -159,24 +159,24 @@ Diagnostic Radiology Center of the Treasure Coast, Inc. </h1>
 	<div class="wrap_1200">
     	<ul class="list">
         	<li class="overview current">
-            	<a class="link" href="/partner/">Overview</a>
+            	<a class="link" href="javascript:void(0)" onclick="openTabs(event, 'Overview')">Overview</a>
             </li>
         	<li class="reseller">
-            	<a class="link" href="/partner/reseller.htm">Scheduling</a>                
+            	<a class="link" href="javascript:void(0)" onclick="openTabs(event, 'Scheduling')">Scheduling</a>                
             </li>
         	<li class="affiliate">
-            	<a class="link" href="/partner/affiliate.htm">Downloadable Forms</a>                
+            	<a class="link"  href="javascript:void(0)" onclick="openTabs(event, 'Downloadable')">Downloadable Forms</a>                
             </li>
         	<li class="oem">
-            	<a class="link" href="/partner/oem.htm">Important Info</a>
+            	<a class="link"  href="javascript:void(0)" onclick="openTabs(event, 'Important')">Important Info</a>
             </li>
         	<li class="service">
-            	<a class="link" href="/partner/service-provider.htm">FAQs</a>
+            	<a class="link"  href="javascript:void(0)" onclick="openTabs(event, 'FAQs')">FAQs</a>
             </li>        	
         </ul>
     </div>
 </div>
-<div id="overview">
+<div id="Overview" class="tabcontent">
     <div class="partner_title"><span class="word">Patients<span class="arrow_right"></span></span></div>
     <div class="reseller_banner">
     	<div class="wrap_1200 reseler">
@@ -191,7 +191,7 @@ Diagnostic Radiology Center of the Treasure Coast, Inc. </h1>
         </div>
     </div>
  </div>
- <div id="Scheduling">
+ <div id="Scheduling" class="tabcontent">
     <div class="partner_title"><span class="word">Scheduling<span class="arrow_right"></span></span></div>
     <div class="reseller_banner">
         <div class="wrap_1200 scheduling">
@@ -317,7 +317,22 @@ $(function(){
 	$(window).scroll(function(){//totop滚动
 		sc();
 	});
-})
+});
+function openTabs(evt, cityName) {
+    alert(cityName);
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("link");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" current", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " current";
+}
+
 </script>
 <script type="text/javascript" language="javascript" src="default/js/other.js"></script>
 <script type="text/javascript" language="javascript" src="default/js/ga.js"></script>

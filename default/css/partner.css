@@ -193,8 +193,8 @@
 .partner_nav .current.contact .link,.partner_nav .contact:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-7-check.png);}
 /*partner_title*/
 .partner_title{margin-bottom:2.5%; text-align:center;}
-.partner_title .word{background:#409ff4 url(http://www.easeus.com/images_2016/partner/partner-title-left.png) left center no-repeat; display:inline-block; line-height:38px; color:#fff; position:relative; padding:0 40px; font-size:24px;}
-.partner_title .arrow_right{background:url(http://www.easeus.com/images_2016/partner/partner-title-right.png) no-repeat; display:block; width:15px; height:38px; position:absolute; right:0; top:0;}
+.partner_title .word{background:#409ff4 url(../../images_2016/partner-title-left.png) left center no-repeat; display:inline-block; line-height:38px; color:#fff; position:relative; padding:0 40px; font-size:24px;}
+.partner_title .arrow_right{background:url(../../images_2016/partner-title-right.png) no-repeat; display:block; width:15px; height:38px; position:absolute; right:0; top:0;}
 .partner_title2{font-size:24px; border-left:6px solid #ff9900; line-height:30px; padding-left:8px; margin-bottom:30px;}
 /*overview_banner*/
 .overview_banner{margin-bottom:4.5%;}

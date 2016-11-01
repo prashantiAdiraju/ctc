@@ -230,7 +230,8 @@
 /*reseller_banner*/
 .reseller_banner{margin-bottom:4.5%; font-size:18px;}
 .reseller_banner .box{padding:3% 0 2% 50px; max-width:580px;}
-.reseller_banner .reseler{background:url(http://www.easeus.com/images_2016/partner/partner-pic-reseller.jpg) center no-repeat; min-height:260px; background-size:cover;}
+.reseller_banner .reseler{background:url(../../images_2016/patients/patients_bg.jpg) center no-repeat; min-height:260px; background-size:cover;}
+.reseller_banner .scheduling{background:url(../../images_2016/patients/scheduling_bg.jpg) center no-repeat; min-height:260px; background-size:cover;color:white;}
 .reseller_banner .af{background:url(http://www.easeus.com/images_2016/partner/partner-pic-affiliate.jpg) center no-repeat; min-height:285px; background-size:cover;}
 .reseller_banner .oem{background:url(http://www.easeus.com/images_2016/partner/partner-pic-oem.jpg) center no-repeat; min-height:250px; background-size:cover;}
 .reseller_banner .oem .box{padding-top:6%;}

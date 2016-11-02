@@ -232,7 +232,10 @@
 .partner_product .list{padding:20px 0; min-height:112px;}
 .partner_product .list li{float:left; width:43%; background:url(http://www.easeus.com/images_2016/arrow-gray-right.png) 20px 7px no-repeat; padding-left:6%; margin-bottom:6px;}
 .partner_product .list li a{color:#232323;}
+.product_content ul {    margin-bottom: 30px;    padding: 20px 0;    min-height: 112px;}
+.product_content ul li {float: left;padding-left: 20px;background: url(../../images_2016/list-blue.png) 2px 8px no-repeat;margin-bottom: 5px; padding-left: 2%;width: 43%;}
 
+    
 /*reseller_banner*/
 .reseller_banner{margin-bottom:4.5%; font-size:18px;}
 .reseller_banner .box{padding:3% 0 2% 50px; max-width:580px;}

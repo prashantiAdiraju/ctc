@@ -156,7 +156,7 @@
 #Awards{background:url('http://www.easeus.com/images/awards.gif') no-repeat center 50px;height:125px;}
 #Awards h2,.sidebar_share h2{border-bottom:1px solid #e6e6e6;font-weight:normal;line-height:40px;padding-left:20px;font-size:16px;}
 /*partner_banner*/
-.partner_banner{background:url(../../images_2016/patients/patients_img1.gif) center no-repeat; background-size:cover; min-height:250px; color:#fff;}
+.partner_banner{background:url(../../images_2016/patients/patients_banner.gif) center no-repeat; background-size:cover; min-height:250px; color:#fff;}
 .partner_banner .title{font-weight:normal; font-size:32px; line-height:40px; padding:6% 0 10px 0; text-align:center;}
 .partner_banner .des{font-size:18px; text-align:center;}
 /*partner_nav*/
@@ -171,24 +171,30 @@
 .partner_nav .box{position:absolute; left:0; top:80px; width:100%; text-align:left;background-color:#0087ff; padding:0px 0 10px 0; display:none;}
 .partner_nav .box a{display:block; color:#fff; background:url(http://www.easeus.com/images_2016/partner/partner-menu-list-hover.png) 16px 8px no-repeat; padding-left:26px;}
 .partner_nav li:hover .box{display:block;}
-.partner_nav .overview .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-1-default.png) center 18px no-repeat;}
-.partner_nav .current.overview .link,.partner_nav .overview:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-1-check.png);}
+.partner_nav .overview .link{background:url(../../images_2016/icon-overview.png) center 18px no-repeat;}
+.partner_nav .reseller.overview:hover .link{background-image:url(../../images_2016/icon-overview-hover.png);color:#fff;}
+.partner_nav .current.overview .link{background-image:url(../../images_2016/icon-overview-active.png);}
 .partner_nav .reseller:hover{background-color:#0087ff; z-index:51;}
-.partner_nav .reseller .link{background:url(../../images_2016/icon-overview_30.png) center 18px no-repeat;}
-.partner_nav .current.reseller .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-2-check.png);}
-.partner_nav .reseller:hover .link{background-image:url(../../images_2016/icon-date_30_hover.png);color:#fff;}
+.partner_nav .scheduling .link{background:url(../../images_2016/icon-date.png) center 18px no-repeat;}
+.partner_nav .reseller .scheduling .link{background:url(../../images_2016/icon-date.png) center 18px no-repeat;}
+.partner_nav .current.scheduling .link{background-image:url(../../images_2016/icon-date-active.png);}
+.partner_nav .scheduling:hover .link{background-image:url(../../images_2016/icon-date-hover.png);color:#fff;}
 .partner_nav .reseller .link:hover{text-decoration:underline;}
-.partner_nav .affiliate .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-3-default.png) center 18px no-repeat;}
-.partner_nav .current.affiliate .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-3-check.png);}
-.partner_nav .affiliate:hover{background-color:#0087ff; z-index:51;}
-.partner_nav .affiliate:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-3-hover.png);color:#fff;}
-.partner_nav .affiliate .link:hover{text-decoration:underline;}
+.partner_nav .downloadable .link{background:url(../../images_2016/icon-download.png) center 18px no-repeat;}
+.partner_nav .current.downloadable .link{background-image:url(../../images_2016/icon-download-active.png);}
+.partner_nav .downloadable:hover{background-color:#0087ff; z-index:51;}
+.partner_nav .downloadable:hover .link{background-image:url(../../images_2016/icon-download-hover.png);color:#fff;}
+
+.partner_nav .downloadable .link:hover{text-decoration:underline;}
 .partner_nav .oem .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-4-default.png) center 18px no-repeat;}
-.partner_nav .current.oem .link,.partner_nav .oem:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-4-check.png);}
-.partner_nav .service .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-5-default.png) center 18px no-repeat;}
+.partner_nav .current.oem .link{background-image:url(../../images_2016/icon-faqs.png);}
+.partner_nav .reseller.faqs:hover .link{background-image:url(../../images_2016/icon-faqs-hover.png);color:#fff;}
+.partner_nav .reseller.faqs .link{background:url(../../images_2016/icon-faqs.png) center 18px no-repeat;}
+.partner_nav .current.faqs .link{background:url(../../images_2016/icon-faqs-active.png) center 18px no-repeat;}
 .partner_nav .current.service .link,.partner_nav .service:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-5-check.png);}
-.partner_nav .investor .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-6-default.png) center 18px no-repeat;}
-.partner_nav .current.investor .link,.partner_nav .investor:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-6-check.png);}
+.partner_nav .importantinfo .link{background:url(../../images_2016/icon-important.png) center 18px no-repeat;}
+.partner_nav .current.importantinfo .link{background-image:url(../../images_2016/icon-important-active.png);}
+.partner_nav .importantinfo:hover .link{background-image:url(../../images_2016/icon-important-hover.png);color:#fff;}
 .partner_nav .contact .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-7-default.png) center 18px no-repeat;}
 .partner_nav .current.contact .link,.partner_nav .contact:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-7-check.png);}
 /*partner_title*/
@@ -368,7 +374,6 @@
 .top_banner.download{background:url(http://www.easeus.com/images/en/topbg-download.jpg) no-repeat;height:70px;}
 .top_banner.download_drwmac{background:url(http://www.easeus.com/images/en/bg-topbanner-drwmac.jpg) no-repeat;height:70px;}
 .top_banner.thankyou{height:250px;margin-bottom:50px;background:url(http://images.easeus.com/images/en/topbg-thank.jpg) no-repeat;}
-
 
 
 

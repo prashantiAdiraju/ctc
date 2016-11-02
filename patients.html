@@ -159,24 +159,24 @@ Diagnostic Radiology Center of the Treasure Coast, Inc. </h1>
 	<div class="wrap_1200">
     	<ul class="list">
         	<li class="reseller overview current">
-            	<a class="link" href="javascript:void(0)" onclick="openTabs(event, 'Overview')">Overview</a>
+            	<a class="link" href="patients/overview.html">Overview</a>
             </li>
-        	<li class="reseller">
-            	<a class="link" href="javascript:void(0)" onclick="openTabs(event, 'Scheduling')">Scheduling</a>                
+        	<li class="reseller scheduling">
+            	<a class="link" href="patients/scheduling.html">Scheduling</a>                
             </li>
-        	<li class="reseller affiliate">
-            	<a class="link"  href="javascript:void(0)" onclick="openTabs(event, 'Downloadable')">Downloadable Forms</a>                
+        	<li class="reseller downloadable">
+            	<a class="link"  href="patients/downloadable.html">Downloadable Forms</a>                
             </li>
-        	<li class="reseller oem">
-            	<a class="link"  href="javascript:void(0)" onclick="openTabs(event, 'Important')">Important Info</a>
+        	<li class="reseller importantinfo">
+            	<a class="link"  href="patients/importantinfo.html">Important Info</a>
             </li>
-        	<li class="reseller service">
-            	<a class="link"  href="javascript:void(0)" onclick="openTabs(event, 'FAQs')">FAQs</a>
+        	<li class="reseller faqs">
+            	<a class="link"  href="patients/faqs.html">FAQs</a>
             </li>        	
         </ul>
     </div>
 </div>
-<div id="Overview" class="tabcontent" style="display:block">
+<div id="Overview">
     <div class="partner_title"><span class="word">Patients<span class="arrow_right"></span></span></div>
     <div class="reseller_banner">
     	<div class="wrap_1200 reseler">
@@ -191,7 +191,7 @@ Diagnostic Radiology Center of the Treasure Coast, Inc. </h1>
         </div>
     </div>
  </div>
- <div id="Scheduling" style="display:none" class="tabcontent">
+ <div id="Scheduling">
     <div class="partner_title"><span class="word">Scheduling<span class="arrow_right"></span></span></div>
     <div class="reseller_banner">
         <div class="wrap_1200 scheduling">
@@ -264,7 +264,7 @@ Extended night and weekend times available</p>
     </div>
     </div>
 </div>    
-<div id="Downloadable" class="tabcontent" style="display:none">
+<div id="Downloadable">
     <div class="partner_title"><span class="word">Donloadable Forms<span class="arrow_right"></span></span></div>
     <div class="reseller_banner">
     	<div class="wrap_1200 reseler">
@@ -280,7 +280,7 @@ Extended night and weekend times available</p>
     </div>
  </div>
  
-<div id="Important" class="tabcontent" style="display:none">
+<div id="Important">
     <div class="partner_title"><span class="word">Important Information<span class="arrow_right"></span></span></div>
     <div class="reseller_banner">
     	<div class="wrap_1200 reseler">
@@ -297,7 +297,7 @@ Extended night and weekend times available</p>
  </div>
  
 
-<div id="FAQs" class="tabcontent" style="display:none">
+<div id="FAQs">
     <div class="partner_title"><span class="word">FAQs<span class="arrow_right"></span></span></div>
     <div class="reseller_banner">
     	<div class="wrap_1200 reseler">
@@ -311,13 +311,7 @@ Extended night and weekend times available</p>
         	<p>DTo expedite your visit, please download and print both the Patient Information form, and the Screening form for your specific exam. Fill the forms out in full and bring along to your scheduled appointment.</p>       
         </div>
     </div>
- </div>
- 
-
-
-
-
-
+ </div> 
 
 <!--footer-->
 <div class="footer">
@@ -372,21 +366,6 @@ $(function(){
 		sc();
 	});
 });
-function openTabs(evt, cityName) {
-    alert(cityName);
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("link");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" current", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " current";
-}
-
 </script>
 <script type="text/javascript" language="javascript" src="default/js/other.js"></script>
 <script type="text/javascript" language="javascript" src="default/js/ga.js"></script>

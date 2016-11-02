@@ -236,10 +236,12 @@
 /*reseller_banner*/
 .reseller_banner{margin-bottom:4.5%; font-size:18px;}
 .reseller_banner .box{padding:3% 0 2% 50px; max-width:580px;}
-.reseller_banner .reseller{background:url(../../images_2016/patients/patients_bg.jpg) center no-repeat; min-height:260px; background-size:cover;}
-.reseller_banner .scheduling{background:url(../../images_2016/patients/banner3.jpg) center no-repeat; min-height:260px; background-size:cover;color:white;}
-.reseller_banner .af{background:url(http://www.easeus.com/images_2016/partner/partner-pic-affiliate.jpg) center no-repeat; min-height:285px; background-size:cover;}
-.reseller_banner .oem{background:url(http://www.easeus.com/images_2016/partner/partner-pic-oem.jpg) center no-repeat; min-height:250px; background-size:cover;}
+
+.reseller_banner .overview_banner{background:url(../../images_2016/patients/patients_bg.jpg) center no-repeat; min-height:260px; background-size:cover;color:white;}
+.reseller_banner .scheduling_banner{background:url(../../images_2016/patients/banner3.jpg) center no-repeat; min-height:260px; background-size:cover;color:white;}
+.reseller_banner .importantinfo_banner{background:url(../../images_2016/patients/banner_bg.jpg) center no-repeat; min-height:285px; background-size:cover;}
+.reseller_banner .downloadable_banner{background:url(../../images_2016/patients/patients_banner.gif) center no-repeat; min-height:250px; background-size:cover;}
+.reseller_banner .faqs_banner{background:url(../../images_2016/patients/scheduling_bg.jpg) center no-repeat; min-height:250px; background-size:cover;}
 .reseller_banner .oem .box{padding-top:6%;}
 .reseller_banner .provide{background:url(http://www.easeus.com/images_2016/partner/partner-pic-service.jpg) center no-repeat; min-height:250px; background-size:cover;}
 .reseller_banner .provide .box{max-width:none; padding-top:6%;}

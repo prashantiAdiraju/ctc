@@ -198,6 +198,40 @@
 .partner_nav .importantinfo:hover .link{background-image:url(../../images_2016/icon-important-hover.png);color:#fff;}
 .partner_nav .contact .link{background:url(http://www.easeus.com/images_2016/partner/partner-menu-7-default.png) center 18px no-repeat;}
 .partner_nav .current.contact .link,.partner_nav .contact:hover .link{background-image:url(http://www.easeus.com/images_2016/partner/partner-menu-7-check.png);}
+
+/*services tabnavs */
+.partner_nav .mri .link{background:url(../../images_2016/icon-mri.png) center 18px no-repeat;}
+.partner_nav .reseller.mri:hover .link{background-image:url(../../images_2016/icon-mri-hover.png);color:#fff;}
+.partner_nav .current.mri .link{background-image:url(../../images_2016/icon-mri-active.png);}
+.partner_nav .reseller:hover{background-color:#0087ff; z-index:51;}
+
+.partner_nav .cat .link{background:url(../../images_2016/icon-cat-scan.png) center 18px no-repeat;}
+.partner_nav .reseller .cat .link{background:url(../../images_2016/icon-cat-scan.png) center 18px no-repeat;}
+.partner_nav .current.cat .link{background-image:url(../../images_2016/icon-cat-scan-active.png);}
+.partner_nav .cat:hover .link{background-image:url(../../images_2016/icon-cat-scan-hover.png);color:#fff;}
+
+.partner_nav .ultrasound .link{background:url(../../images_2016/icon-ultrasound.png) center 18px no-repeat;}
+.partner_nav .current.ultrasound .link{background-image:url(../../images_2016/icon-ultrasound-active.png);}
+.partner_nav .ultrasound:hover .link{background-image:url(../../images_2016/icon-ultrasound-hover.png);color:#fff;}
+
+.partner_nav .mammography .link{background:url(../../images_2016/icon-mammography.png) center 18px no-repeat;}
+.partner_nav .current.mammography .link{background-image:url(../../images_2016/icon-mammography-active.png);}
+.partner_nav .mammography:hover .link{background-image:url(../../images_2016/icon-mammography-hover.png);color:#fff;}
+
+.partner_nav .dexa .link{background:url(../../images_2016/icon-dexa-scan.png) center 18px no-repeat;}
+.partner_nav .current.dexa .link{background-image:url(../../images_2016/icon-dexa-scan-active.png);}
+.partner_nav .dexa:hover .link{background-image:url(../../images_2016/icon-dexa-scan-hover.png);color:#fff;}
+
+.partner_nav .xray .link{background:url(../../images_2016/icon-xray1.png) center 18px no-repeat;}
+.partner_nav .current.xray .link{background-image:url(../../images_2016/icon-xray-active.png);}
+.partner_nav .xray:hover .link{background-image:url(../../images_2016/icon-xray-hover.png);color:#fff;}
+
+.partner_nav .petctnew .link{background:url(../../images_2016/icon-petctnew.png) center 18px no-repeat;}
+.partner_nav .current.petctnew .link{background-image:url(../../images_2016/icon-petctnew-active.png);}
+.partner_nav .petctnew:hover .link{background-image:url(../../images_2016/icon-petctnew-hover.png);color:#fff;}
+
+
+
 /*partner_title*/
 .partner_title{margin-bottom:2.5%; text-align:center;}
 .partner_title .word{background:#409ff4 url(../../images_2016/partner-title-left.png) left center no-repeat; display:inline-block; line-height:38px; color:#fff; position:relative; padding:0 40px; font-size:24px;}
@@ -210,6 +244,13 @@
 .overview_banner .word{float:right; width:57%;}
 .overview_banner .word p{margin-bottom:20px;}
 .overview_banner .mail{background:url(http://www.easeus.com/images_2016/partner/partner-overview-maile.png) no-repeat; padding-left:40px;}
+/*faqs_banner*/
+.faqs_content{margin-bottom:4.5%;}
+.faqs_content .img{float:left; width:39%;}
+.faqs_content .img img{max-width:100%;}
+.faqs_content .word{float:right; width:57%;}
+.faqs_content .word p{margin-bottom:20px;}
+.faqs_content .mail{background:url() no-repeat; padding-left:40px;}
 /*overview_box*/
 .overview_box{background-color:#f5f5f5; margin-bottom:4.5%;}
 .overview_box .wrap_1200{padding:4% 0; border-bottom:1px solid #e8e8e8;}
